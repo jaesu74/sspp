@@ -1,0 +1,18 @@
+.git
+.gitignore
+node_modules/
+npm-debug.log
+README.md
+test/
+coverage/
+.vscode/
+.idea/
+*.log
+*.pem
+# 배포에 포함될 파일/디렉토리를 주석 처리
+# .env*
+# .next/cache/
+# service-account.json
+# **/service-account.json
+firebase-adminsdk.json
+**/firebase-adminsdk.json 

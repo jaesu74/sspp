@@ -1,0 +1,32 @@
+{
+  "chunks": {
+    "UN-KP-001": ["un_chunk_1.json"],
+    "UN-KP-002": ["un_chunk_1.json"],
+    "UN-KP-003": ["un_chunk_1.json"],
+    "UN-IR-001": ["un_chunk_1.json"],
+    "UN-SY-001": ["un_chunk_1.json"],
+    "EU-RU-001": ["eu_chunk_1.json"],
+    "EU-RU-002": ["eu_chunk_1.json"],
+    "EU-RU-003": ["eu_chunk_1.json"],
+    "EU-BY-001": ["eu_chunk_1.json"],
+    "EU-IR-001": ["eu_chunk_1.json"],
+    "EU-SY-001": ["eu_chunk_1.json"],
+    "US-IR-001": ["us_chunk_1.json"],
+    "US-IR-002": ["us_chunk_1.json"],
+    "US-RU-001": ["us_chunk_1.json"],
+    "US-VE-001": ["us_chunk_1.json"],
+    "US-CN-001": ["us_chunk_1.json"],
+    "US-CU-001": ["us_chunk_1.json"],
+    "US-KP-001": ["us_chunk_1.json"],
+    "US-KP-002": ["us_chunk_1.json"]
+  },
+  "meta": {
+    "created": "2025-04-27T10:30:00Z",
+    "totalEntries": 19,
+    "chunks": {
+      "un_chunk_1.json": 5,
+      "eu_chunk_1.json": 6,
+      "us_chunk_1.json": 8
+    }
+  }
+}

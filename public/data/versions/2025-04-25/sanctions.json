@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "샘플 제재 대상 1",
+    "type": "individual",
+    "country": "KP",
+    "source": "UN"
+  },
+  {
+    "id": "2",
+    "name": "샘플 제재 대상 2",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU"
+  },
+  {
+    "id": "3",
+    "name": "샘플 제재 대상 3",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US"
+  }
+]

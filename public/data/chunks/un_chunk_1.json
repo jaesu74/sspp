@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "source": "UN",
+    "timestamp": "2025-04-27T10:35:00Z",
+    "chunk": {
+      "index": 1,
+      "total": 1
+    }
+  },
+  "data": [
+    {
+      "id": "UN-KP-001",
+      "name": "김정은",
+      "type": "individual",
+      "country": "KP",
+      "source": "UN",
+      "programs": ["DPRK"],
+      "details": {
+        "aliases": ["Kim Jong Un", "Kim Jong-un"],
+        "title": "Supreme Leader",
+        "nationality": "North Korean",
+        "birthdate": "1984-01-08",
+        "startdate": "2016-06-02",
+        "description": "북한 최고지도자"
+      }
+    },
+    {
+      "id": "UN-KP-002",
+      "name": "조선중앙은행",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "programs": ["DPRK", "Nuclear"],
+      "details": {
+        "aliases": ["Central Bank of DPRK", "Central Bank of North Korea"],
+        "address": "Pyongyang, North Korea",
+        "startdate": "2017-08-05",
+        "description": "북한 중앙은행"
+      }
+    },
+    {
+      "id": "UN-IR-001",
+      "name": "이란 혁명수비대",
+      "type": "entity",
+      "country": "IR",
+      "source": "UN",
+      "programs": ["Iran", "Counter-terrorism"],
+      "details": {
+        "aliases": ["Islamic Revolutionary Guard Corps", "IRGC"],
+        "address": "Tehran, Iran",
+        "startdate": "2007-03-24",
+        "description": "이란 혁명수비대"
+      }
+    },
+    {
+      "id": "UN-KP-003",
+      "name": "무궁화호",
+      "type": "vessel",
+      "country": "KP",
+      "source": "UN",
+      "programs": ["DPRK", "Maritime"],
+      "details": {
+        "imo": "9123456",
+        "flag": "North Korea",
+        "vessel_type": "Cargo",
+        "startdate": "2018-03-30",
+        "description": "북한 선적 화물선"
+      }
+    },
+    {
+      "id": "UN-SY-001",
+      "name": "시리아 과학연구센터",
+      "type": "entity",
+      "country": "SY",
+      "source": "UN",
+      "programs": ["Syria", "Chemical Weapons"],
+      "details": {
+        "aliases": ["Scientific Studies and Research Center", "SSRC"],
+        "address": "Damascus, Syria",
+        "startdate": "2018-04-14",
+        "description": "시리아 화학무기 개발 연구기관"
+      }
+    }
+  ]
+} 

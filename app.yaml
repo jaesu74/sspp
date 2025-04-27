@@ -1,0 +1,45 @@
+runtime: nodejs18
+env: standard
+
+instance_class: F1
+
+automatic_scaling:
+  target_cpu_utilization: 0.65
+  min_instances: 1
+  max_instances: 10
+  target_throughput_utilization: 0.6
+
+env_variables:
+  NODE_ENV: "production"
+  NEXT_PUBLIC_DOMAIN: "sp.wvl.co.kr"
+  FIREBASE_PROJECT_ID: "sp-2504-cf8b6"
+  NEXT_PUBLIC_FIREBASE_API_KEY: "AIzaSyCozFda3anqtaQfPxN4W_6w61zRw02SWtY"
+  NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: "sp-2504-cf8b6.firebaseapp.com"
+  NEXT_PUBLIC_FIREBASE_PROJECT_ID: "sp-2504-cf8b6"
+  NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: "sp-2504-cf8b6.firebasestorage.app"
+  NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: "300578693120"
+  NEXT_PUBLIC_FIREBASE_APP_ID: "1:300578693120:web:770540805bb669ab30f8e5"
+  NEXT_PUBLIC_BASE_URL: "https://sp.wvl.co.kr"
+  NEXT_PUBLIC_API_URL: "https://sp.wvl.co.kr/api"
+  # Firebase 환경 변수들은 Google Cloud Console에서 설정됩니다.
+
+handlers:
+  # 정적 디렉토리 전체 제공 (간단한 방식)
+  - url: /_next/static
+    static_dir: .next/static
+    secure: always
+    expiration: "360d"
+    
+  # public 정적 파일 처리
+  - url: /(.*\.(ico|png|jpg|jpeg|gif|svg|css|js))
+    static_files: public/\1
+    upload: public/.*\.(ico|png|jpg|jpeg|gif|svg|css|js)
+    secure: always
+    expiration: "7d"
+
+  # 기본 핸들러
+  - url: /.*
+    script: auto
+    secure: always
+
+service: default 

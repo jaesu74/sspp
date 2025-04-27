@@ -1,0 +1,100 @@
+{
+  "entries": [
+    {
+      "id": "EU-RU-001",
+      "name": "블라디미르 푸틴",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "programs": ["Ukraine"],
+      "details": {
+        "aliases": ["Vladimir Putin", "Vladimir Vladimirovich Putin"],
+        "title": "President",
+        "nationality": "Russian",
+        "birthdate": "1952-10-07",
+        "startdate": "2014-07-25",
+        "description": "러시아 대통령"
+      }
+    },
+    {
+      "id": "EU-RU-002",
+      "name": "가즈프롬",
+      "type": "entity",
+      "country": "RU",
+      "source": "EU",
+      "programs": ["Ukraine", "Energy"],
+      "details": {
+        "aliases": ["Gazprom", "Public Joint Stock Company Gazprom"],
+        "address": "Moscow, Russia",
+        "startdate": "2014-09-12",
+        "description": "러시아 국영 에너지 기업"
+      }
+    },
+    {
+      "id": "EU-BY-001",
+      "name": "알렉산드르 루카셴코",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "programs": ["Belarus"],
+      "details": {
+        "aliases": ["Alexander Lukashenko"],
+        "title": "President",
+        "nationality": "Belarusian",
+        "birthdate": "1954-08-30",
+        "startdate": "2021-05-24",
+        "description": "벨라루스 대통령"
+      }
+    },
+    {
+      "id": "EU-IR-001",
+      "name": "이란 항공",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "programs": ["Iran", "Aviation"],
+      "details": {
+        "aliases": ["Iran Air", "The Airline of the Islamic Republic of Iran"],
+        "address": "Tehran, Iran",
+        "startdate": "2011-04-23",
+        "description": "이란 국영 항공사"
+      }
+    },
+    {
+      "id": "EU-SY-001",
+      "name": "바샤르 알아사드",
+      "type": "individual",
+      "country": "SY",
+      "source": "EU",
+      "programs": ["Syria"],
+      "details": {
+        "aliases": ["Bashar al-Assad", "Bashar Hafez al-Assad"],
+        "title": "President",
+        "nationality": "Syrian",
+        "birthdate": "1965-09-11",
+        "startdate": "2011-05-10",
+        "description": "시리아 대통령"
+      }
+    },
+    {
+      "id": "EU-RU-003",
+      "name": "아드미랄 쿠즈네초프",
+      "type": "vessel",
+      "country": "RU",
+      "source": "EU",
+      "programs": ["Ukraine", "Maritime"],
+      "details": {
+        "imo": "8456934",
+        "flag": "Russia",
+        "vessel_type": "Aircraft Carrier",
+        "startdate": "2022-02-25",
+        "description": "러시아 해군 항공모함"
+      }
+    }
+  ],
+  "meta": {
+    "source": "EU",
+    "lastUpdated": "2025-04-27T10:05:00Z",
+    "count": 6
+  }
+} 

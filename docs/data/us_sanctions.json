@@ -1,0 +1,125 @@
+{
+  "entries": [
+    {
+      "id": "US-IR-001",
+      "name": "이란 이슬람 공화국",
+      "type": "entity",
+      "country": "IR",
+      "source": "US",
+      "programs": ["IRAN", "SDGT"],
+      "details": {
+        "aliases": ["Islamic Republic of Iran", "Iran"],
+        "address": "Tehran, Iran",
+        "startdate": "1984-01-19",
+        "description": "이란 정부"
+      }
+    },
+    {
+      "id": "US-RU-001",
+      "name": "로스네프트",
+      "type": "entity",
+      "country": "RU",
+      "source": "US",
+      "programs": ["UKRAINE-EO13662", "RUSSIA-EO14024"],
+      "details": {
+        "aliases": ["Rosneft", "Rosneft Oil Company"],
+        "address": "Moscow, Russia",
+        "startdate": "2014-07-16",
+        "description": "러시아 국영 석유회사"
+      }
+    },
+    {
+      "id": "US-VE-001",
+      "name": "니콜라스 마두로",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "programs": ["VENEZUELA"],
+      "details": {
+        "aliases": ["Nicolas Maduro Moros"],
+        "title": "President",
+        "nationality": "Venezuelan",
+        "birthdate": "1962-11-23",
+        "startdate": "2017-07-31",
+        "description": "베네수엘라 대통령"
+      }
+    },
+    {
+      "id": "US-CN-001",
+      "name": "화웨이 테크놀로지스",
+      "type": "entity",
+      "country": "CN",
+      "source": "US",
+      "programs": ["NPWMD", "NS-ISA"],
+      "details": {
+        "aliases": ["Huawei Technologies Co., Ltd.", "华为技术有限公司"],
+        "address": "Shenzhen, China",
+        "startdate": "2019-05-16",
+        "description": "중국 통신장비 제조기업"
+      }
+    },
+    {
+      "id": "US-CU-001",
+      "name": "쿠바 군사정보부",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "programs": ["CUBA"],
+      "details": {
+        "aliases": ["Dirección de Inteligencia Militar", "DIM"],
+        "address": "Havana, Cuba",
+        "startdate": "2017-11-09",
+        "description": "쿠바 군사정보기관"
+      }
+    },
+    {
+      "id": "US-KP-001",
+      "name": "조선무역은행",
+      "type": "entity",
+      "country": "KP",
+      "source": "US",
+      "programs": ["DPRK", "NPWMD"],
+      "details": {
+        "aliases": ["Foreign Trade Bank of North Korea", "FTB"],
+        "address": "Pyongyang, North Korea",
+        "startdate": "2013-03-11",
+        "description": "북한 대외 무역 담당 은행"
+      }
+    },
+    {
+      "id": "US-IR-002",
+      "name": "페르시안 걸프 스타",
+      "type": "vessel",
+      "country": "IR",
+      "source": "US",
+      "programs": ["IRAN", "IFSR"],
+      "details": {
+        "imo": "9456783",
+        "flag": "Iran",
+        "vessel_type": "Oil Tanker",
+        "startdate": "2019-08-30",
+        "description": "이란 국적 유조선"
+      }
+    },
+    {
+      "id": "US-KP-002",
+      "name": "장성택",
+      "type": "individual",
+      "country": "KP",
+      "source": "US",
+      "programs": ["DPRK"],
+      "details": {
+        "aliases": ["Jang Song Thaek", "Chang Sung-taek"],
+        "nationality": "North Korean",
+        "birthdate": "1946-02-02",
+        "startdate": "2013-01-24",
+        "description": "북한 고위 정치인"
+      }
+    }
+  ],
+  "meta": {
+    "source": "US",
+    "lastUpdated": "2025-04-27T10:10:00Z",
+    "count": 8
+  }
+} 
