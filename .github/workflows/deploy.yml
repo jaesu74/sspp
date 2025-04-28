@@ -35,16 +35,26 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Setup Google Cloud SDK
+      - name: Authenticate to Google Cloud
+        id: auth
         uses: google-github-actions/auth@v1
         with:
           project_id: ${{ secrets.GCP_PROJECT_ID }}
           credentials_json: ${{ secrets.GCP_SA_KEY }}
+          create_credentials_file: true
+          export_environment_variables: true
           
       - name: Set up Cloud SDK
         uses: google-github-actions/setup-gcloud@v1
+        with:
+          project_id: ${{ secrets.GCP_PROJECT_ID }}
+          
+      - name: Print auth info
+        run: |
+          echo "Using service account: $GCLOUD_SERVICE_ACCOUNT"
+          gcloud config list
           
       - name: Deploy to App Engine
         run: |
-          echo "*** 환경 변수 설정 ***"
-          gcloud app deploy app.yaml --quiet --promote 
+          echo "*** 배포 시작 ***"
+          gcloud app deploy app.yaml --quiet --promote --project=${{ secrets.GCP_PROJECT_ID }} 
