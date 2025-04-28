@@ -1024,8 +1024,9 @@ export default function Home() {
                 </div>
                 
                 <div className="results-grid">
-                  {searchResults.slice(0, visibleResults).map((result) => (
-                    renderSearchResultItem(result))}
+                  {searchResults.slice(0, visibleResults).map((result) => 
+                    renderSearchResultItem(result)
+                  )}
                 </div>
                 
                 {visibleResults < searchResults.length && (
