@@ -5,6 +5,7 @@ on:
     branches:
       - master
 
+# 권한 추가 후 배포 워크플로우
 jobs:
   deploy:
     name: Deploy to App Engine
