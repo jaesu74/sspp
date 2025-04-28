@@ -635,18 +635,239 @@ export default function Home() {
     router.push('/profile');
   };
 
+  // 검색 결과 항목 렌더링 함수
+  const renderSearchResultItem = (item) => {
+    // 기본 정보 및 태그 설정
+    const type = item.type?.toLowerCase() || '';
+    const typeClass = 
+      type.includes('individual') ? 'individual' : 
+      type.includes('entity') ? 'entity' : 
+      type.includes('vessel') ? 'vessel' : 
+      type.includes('aircraft') ? 'aircraft' : '';
+    
+    // 상세 정보 표시 여부
+    const hasDetail = (item.summary && Object.keys(item.summary).length > 0);
+    
+    return (
+      <div 
+        key={item.id} 
+        className={`search-result-item ${selectedItem?.id === item.id ? 'selected' : ''}`} 
+        onClick={() => setSelectedItem(item)}
+      >
+        <div className="search-result-header">
+          <div className={`result-type ${typeClass}`}>{item.type || '알 수 없음'}</div>
+          <div className="result-source">{item.source || '알 수 없음'}</div>
+        </div>
+        
+        <div className="search-result-body">
+          <h3 className="result-name">{item.name || '(이름 없음)'}</h3>
+          
+          <div className="result-info">
+            {/* 등재일 정보를 추가하고 생년월일은 제외 */}
+            {item.summary?.countries && (
+              <p>
+                <span className="info-label">국가:</span> 
+                {Array.isArray(item.summary.countries) 
+                  ? item.summary.countries.join(', ') 
+                  : item.summary.countries}
+              </p>
+            )}
+            
+            {item.listingDate && (
+              <p>
+                <span className="info-label">등재일:</span> {item.listingDate}
+              </p>
+            )}
+            
+            {item.summary?.program && (
+              <p>
+                <span className="info-label">프로그램:</span> {item.summary.program}
+              </p>
+            )}
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  // 상세 정보 패널 컴포넌트
+  const DetailPanel = ({ item }) => {
+    const [activeTab, setActiveTab] = useState('basic');
+    
+    // 아이템이 없을 경우 빈 패널 표시
+    if (!item) return (
+      <div className="detail-panel empty">
+        <p className="select-prompt">검색 결과에서 항목을 선택하여 상세 정보를 확인하세요.</p>
+      </div>
+    );
+    
+    // 상세 정보 패널 내용
+    return (
+      <div className="detail-panel">
+        <div className="detail-header">
+          <h2 className="detail-title">{item.name}</h2>
+          <div className="detail-meta">
+            <span className={`detail-type ${item.type?.toLowerCase()}`}>{item.type}</span>
+            <span className="detail-source">{item.source}</span>
+          </div>
+        </div>
+        
+        <div className="detail-tabs">
+          <button 
+            className={`detail-tab ${activeTab === 'basic' ? 'active' : ''}`}
+            onClick={() => setActiveTab('basic')}
+          >
+            기본 정보
+          </button>
+          <button 
+            className={`detail-tab ${activeTab === 'additional' ? 'active' : ''}`}
+            onClick={() => setActiveTab('additional')}
+          >
+            추가 정보
+          </button>
+          <button 
+            className={`detail-tab ${activeTab === 'identifiers' ? 'active' : ''}`}
+            onClick={() => setActiveTab('identifiers')}
+          >
+            식별자
+          </button>
+        </div>
+        
+        <div className="detail-content">
+          {activeTab === 'basic' && (
+            <div className="basic-info">
+              <table className="detail-table">
+                <tbody>
+                  <tr>
+                    <th>ID</th>
+                    <td>{item.id}</td>
+                  </tr>
+                  <tr>
+                    <th>이름</th>
+                    <td>{item.name}</td>
+                  </tr>
+                  <tr>
+                    <th>유형</th>
+                    <td>{item.type}</td>
+                  </tr>
+                  {item.summary?.countries && (
+                    <tr>
+                      <th>국가</th>
+                      <td>
+                        {Array.isArray(item.summary.countries) 
+                          ? item.summary.countries.join(', ') 
+                          : item.summary.countries}
+                      </td>
+                    </tr>
+                  )}
+                  {item.listingDate && (
+                    <tr>
+                      <th>등재일</th>
+                      <td>{item.listingDate}</td>
+                    </tr>
+                  )}
+                  <tr>
+                    <th>출처</th>
+                    <td>{item.source}</td>
+                  </tr>
+                  <tr>
+                    <th>마지막 업데이트</th>
+                    <td>{item.lastUpdated || '정보 없음'}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          )}
+          
+          {activeTab === 'additional' && (
+            <div className="additional-info">
+              <table className="detail-table">
+                <tbody>
+                  {/* 생년월일은 추가 정보 탭으로 이동 */}
+                  {item.summary?.birthDate && (
+                    <tr>
+                      <th>생년월일</th>
+                      <td>{item.summary.birthDate}</td>
+                    </tr>
+                  )}
+                  {item.summary?.program && (
+                    <tr>
+                      <th>프로그램</th>
+                      <td>{item.summary.program}</td>
+                    </tr>
+                  )}
+                  {item.summary?.aliases && item.summary.aliases.length > 0 && (
+                    <tr>
+                      <th>별칭</th>
+                      <td>{item.summary.aliases.join(', ')}</td>
+                    </tr>
+                  )}
+                  {item.summary?.addresses && item.summary.addresses.length > 0 && (
+                    <tr>
+                      <th>주소</th>
+                      <td>
+                        <ul className="detail-list">
+                          {item.summary.addresses.map((addr, idx) => (
+                            <li key={idx}>{addr}</li>
+                          ))}
+                        </ul>
+                      </td>
+                    </tr>
+                  )}
+                  {item.summary?.remarks && (
+                    <tr>
+                      <th>비고</th>
+                      <td>{item.summary.remarks}</td>
+                    </tr>
+                  )}
+                </tbody>
+              </table>
+            </div>
+          )}
+          
+          {activeTab === 'identifiers' && (
+            <div className="identifiers-info">
+              {item.summary?.identifiers && item.summary.identifiers.length > 0 ? (
+                <table className="detail-table">
+                  <thead>
+                    <tr>
+                      <th>유형</th>
+                      <th>번호</th>
+                      <th>추가 정보</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {item.summary.identifiers.map((id, idx) => (
+                      <tr key={idx}>
+                        <td>{id.type || '정보 없음'}</td>
+                        <td>{id.number || '정보 없음'}</td>
+                        <td>{id.description || '-'}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              ) : (
+                <p>식별자 정보가 없습니다.</p>
+              )}
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div className="app-container">
       <Head>
-        <title>경제 제재 정보 검색 시스템</title>
-        <meta name="description" content="경제 제재 정보 검색 시스템" />
+        <title>경제제재 정보 검색시스템</title>
+        <meta name="description" content="경제제재 정보 검색시스템" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="main-container">
         <header className="app-header">
           <div className="header-content">
-            <h1 className="app-title">경제 제재 정보 검색 시스템</h1>
+            <h1 className="app-title">경제제재 정보 검색시스템</h1>
             <p className="app-subtitle">UN, EU, US(OFAC) 제재 데이터베이스 통합 검색</p>
             
             <div className="user-actions">
@@ -742,8 +963,8 @@ export default function Home() {
           {!hasSearched && searchResults.length === 0 && !searchTerm && (
             <div className="start-screen">
               <div className="help-container">
-                <h2 className="help-title">제재 정보 검색을 시작하세요</h2>
-                <p className="help-text">국제 제재 대상 개인, 기업, 단체, 선박 등의 정보를 검색할 수 있습니다.</p>
+                <h2 className="help-title">경제제재 정보 검색을 시작하세요</h2>
+                <p className="help-text">국제 경제제재 대상 개인, 기업, 단체, 선박 등의 정보를 검색할 수 있습니다.</p>
                 
                 <div className="help-grid">
                   <div className="help-card">
@@ -804,36 +1025,7 @@ export default function Home() {
                 
                 <div className="results-grid">
                   {searchResults.slice(0, visibleResults).map((result) => (
-                    <div 
-                      key={result.id} 
-                      className="result-card"
-                    >
-                      <div className="result-content">
-                        <h3 className="result-title">{result.name}</h3>
-                        <div className="result-details">
-                          <p>
-                            <span className="result-label">유형:</span>{' '}
-                            {result.type ? (
-                              <span className="result-tag">
-                                {result.type}
-                              </span>
-                            ) : '-'}
-                          </p>
-                          <p><span className="result-label">국가:</span> {result.country || '-'}</p>
-                          <p><span className="result-label">출처:</span> {result.source || '-'}</p>
-                          {result.details?.birthDate && (
-                            <p><span className="result-label">등재일:</span> {result.details.startdate || ''}</p>
-                          )}
-                        </div>
-                        <button
-                          onClick={() => handleItemSelect(result)}
-                          className="view-details-btn"
-                        >
-                          상세 정보 보기
-                        </button>
-                      </div>
-                    </div>
-                  ))}
+                    renderSearchResultItem(result))}
                 </div>
                 
                 {visibleResults < searchResults.length && (

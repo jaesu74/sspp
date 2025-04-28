@@ -98,21 +98,64 @@ export default function handler(req, res) {
     
     // 검색어 필터링
     if (query) {
-      const searchTerms = query.toLowerCase().split(' ').filter(term => term.length > 0);
+      // 검색어 정규화 및 타입 체크
+      const normalizedQuery = query.toString().toLowerCase().trim();
+      const isNumeric = /^\d+$/.test(normalizedQuery);
+      const isDate = /^\d{4}-\d{2}-\d{2}$/.test(normalizedQuery);
+      
+      console.log(`검색어 "${normalizedQuery}" 분석: 숫자=${isNumeric}, 날짜=${isDate}`);
+      
+      const searchTerms = normalizedQuery.split(' ').filter(term => term.length > 0);
       
       filteredData = filteredData.filter(entry => {
         // 기본 검색 필드
-        const searchFields = [
+        const nameFields = [
           entry.name,
           entry.nameOriginal,
+          ...(entry.aliases || []).map(alias => alias.name)
+        ].filter(Boolean).join(' ').toLowerCase();
+        
+        // ID 및 숫자 관련 필드
+        const numericFields = [
           entry.id,
           entry._id,
           entry.referenceNumber,
-          ...(entry.aliases || []).map(alias => alias.name),
+          entry.passportNumber,
+          entry.idNumber,
           ...(entry.identifiers || []).map(id => id.value)
         ].filter(Boolean).join(' ').toLowerCase();
         
-        return searchTerms.every(term => searchFields.includes(term));
+        // 국가, 주소 필드
+        const locationFields = [
+          ...(entry.countries || []),
+          entry.nationality,
+          ...(entry.addresses || []).map(addr => addr.country)
+        ].filter(Boolean).join(' ').toLowerCase();
+        
+        // 날짜 필드
+        const dateFields = [
+          entry.birthDate,
+          entry.startDate,
+          entry.endDate,
+          entry.listingDate,
+          entry.publicationDate
+        ].filter(Boolean).join(' ').toLowerCase();
+        
+        // 모든 필드를 하나로 합침
+        const allFields = nameFields + ' ' + numericFields + ' ' + locationFields + ' ' + dateFields;
+        
+        // 숫자 전용 검색 (정확히 일치하는 숫자만 찾음)
+        if (isNumeric) {
+          return numericFields.includes(normalizedQuery);
+        }
+        // 날짜 전용 검색
+        else if (isDate) {
+          return dateFields.includes(normalizedQuery);
+        } 
+        // 일반 검색 (모든 필드에서 검색)
+        else {
+          return searchTerms.every(term => allFields.includes(term));
+        }
       });
     }
     
@@ -251,6 +294,11 @@ export default function handler(req, res) {
       // 각 항목에 대해 요약 정보 생성
       const summary = generateSummary(entry);
       
+      // 등재일(startDate) 정보 추출
+      const listingDate = entry.listingDate || entry.startDate || 
+                         (entry.details && entry.details.listingDate) || 
+                         (entry.details && entry.details.startDate);
+      
       return {
         id: entry.id || entry._id,
         name: entry.name || entry.nameOriginal || '(이름 없음)',
@@ -263,6 +311,7 @@ export default function handler(req, res) {
           entry.publicationDate || 
           entry.listingDate
         ),
+        listingDate: listingDate ? formatDate(listingDate) : null,
         summary
       };
     });

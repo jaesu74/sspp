@@ -1,4 +1,4 @@
-runtime: nodejs20  
+runtime: nodejs20
 env: standard
 
 instance_class: F1
@@ -24,11 +24,24 @@ env_variables:
   # Firebase 환경 변수들은 Google Cloud Console에서 설정됩니다.
 
 handlers:
-  # 정적 디렉토리 전체 제공 (간단한 방식)
+  # Next.js 정적 파일 제공 - 개선된 버전
   - url: /_next/static
     static_dir: .next/static
     secure: always
     expiration: "360d"
+    
+  # Next.js 특수 파일 제공
+  - url: /_next/data/(.*)
+    static_files: .next/data/\1
+    upload: .next/data/(.*)
+    secure: always
+    
+  # Next.js 루트 파일 처리 (_buildManifest.js, _ssgManifest.js 등)
+  - url: /_next/(.+\.(js|json))
+    static_files: .next/\1
+    upload: .next/(.+\.(js|json))
+    secure: always
+    expiration: "7d"
     
   # public 정적 파일 처리
   - url: /(.*\.(ico|png|jpg|jpeg|gif|svg|css|js))
