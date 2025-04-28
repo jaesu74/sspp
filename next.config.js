@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   distDir: '.next',
-  // 정적 파일에 대한 assetPrefix 제거 (App Engine 내부 처리에 맡김)
-  // assetPrefix: process.env.NODE_ENV === 'production' ? 'https://sp-2504-cf8b6.du.r.appspot.com' : '',
+  // 정적 파일에 대한 assetPrefix 설정
+  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://sp.wvl.co.kr' : '',
   env: {
     // 배포 환경 URL
     NEXT_PUBLIC_BASE_URL: 'https://sp.wvl.co.kr',
@@ -26,6 +26,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // 정적 파일 출력 설정
+  output: 'standalone',
   // 하드 네비게이션 오류 방지를 위한 설정
   experimental: {
     scrollRestoration: true,

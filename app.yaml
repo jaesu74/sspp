@@ -25,12 +25,13 @@ env_variables:
 
 handlers:
   # Next.js 정적 파일 제공 - 개선된 버전
-  - url: /_next/static
-    static_dir: .next/static
+  - url: /_next/static/(.*)
+    static_files: .next/static/\1
+    upload: .next/static/(.*)
     secure: always
     expiration: "360d"
     
-  # Next.js 특수 파일 제공
+  # Next.js 페이지 데이터 파일 제공
   - url: /_next/data/(.*)
     static_files: .next/data/\1
     upload: .next/data/(.*)
@@ -41,7 +42,21 @@ handlers:
     static_files: .next/\1
     upload: .next/(.+\.(js|json))
     secure: always
-    expiration: "7d"
+    expiration: "30d"
+    
+  # 빌드 ID별 정적 파일 처리
+  - url: /_next/static/[^/]+/(.*)
+    static_files: .next/static/\1
+    upload: .next/static/(.*)
+    secure: always
+    expiration: "360d"
+    
+  # chunks 폴더 파일 명시적 처리
+  - url: /_next/static/chunks/(.*)
+    static_files: .next/static/chunks/\1
+    upload: .next/static/chunks/(.*)
+    secure: always
+    expiration: "360d"
     
   # public 정적 파일 처리
   - url: /(.*\.(ico|png|jpg|jpeg|gif|svg|css|js))

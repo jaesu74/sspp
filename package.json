@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/copy-static.js",
     "start": "next start",
     "lint": "next lint",
     "clean": "if exist .next rmdir /s /q .next && if exist .firebase rmdir /s /q .firebase",
