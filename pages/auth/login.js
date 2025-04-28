@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Head from 'next/head';
-import { loginWithEmailAndPassword, loginUser } from '../../lib/firebase/auth';
+import { loginWithEmailAndPassword } from '../../lib/firebase/auth';
 import { useAuth } from '../../lib/firebase/context';
 import styles from '../../styles/Login.module.css';
 import {
@@ -21,7 +21,7 @@ export default function Login() {
   const [loading, setLoading] = useState(false);
   const [showDeleteInfo, setShowDeleteInfo] = useState(false);
   const router = useRouter();
-  const { user, loading: authLoading } = useAuth();
+  const { user, loading: authLoading, login } = useAuth();
   
   // URL 쿼리 파라미터 확인
   useEffect(() => {
@@ -41,11 +41,19 @@ export default function Login() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
+    setError('');
+    
     try {
+      // useAuth 컨텍스트에서 제공하는 login 함수 사용
       await login(email, password);
+      console.log('로그인 성공');
       router.push('/');
     } catch (error) {
+      console.error('로그인 오류:', error);
       setError('로그인에 실패했습니다. 이메일과 비밀번호를 확인해주세요.');
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -90,6 +98,7 @@ export default function Login() {
             autoFocus
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            disabled={loading}
           />
           <TextField
             margin="normal"
@@ -102,14 +111,16 @@ export default function Login() {
             autoComplete="current-password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            disabled={loading}
           />
           <Button
             type="submit"
             fullWidth
             variant="contained"
             sx={{ mt: 3, mb: 2 }}
+            disabled={loading}
           >
-            로그인
+            {loading ? '로그인 중...' : '로그인'}
           </Button>
         </Box>
         

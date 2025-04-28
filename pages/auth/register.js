@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Head from 'next/head';
-import { signUpUser } from '../../lib/firebase/auth';
 import { useAuth } from '../../lib/firebase/context';
 import styles from '../../styles/Login.module.css';
 
@@ -17,7 +16,7 @@ export default function Register() {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
   const router = useRouter();
-  const { user, loading: authLoading } = useAuth();
+  const { user, loading: authLoading, register } = useAuth();
 
   // 이미 로그인한 사용자 리디렉션
   useEffect(() => {
@@ -58,26 +57,28 @@ export default function Register() {
     setError('');
     
     try {
-      const result = await signUpUser(
-        formData.email, 
-        formData.password,
-        formData.name
-      );
+      // useAuth 컨텍스트의 register 함수 사용
+      await register(formData.email, formData.password, formData.name);
       
-      if (result.success) {
-        console.log('회원가입 성공');
-        setSuccess(true);
-        
-        // 회원가입 성공 시 3초 후 로그인 페이지로 이동
-        setTimeout(() => {
-          router.push('/auth/login?registered=true');
-        }, 3000);
-      } else {
-        setError(result.error);
-      }
+      console.log('회원가입 성공');
+      setSuccess(true);
+      
+      // 회원가입 성공 시 3초 후 로그인 페이지로 이동
+      setTimeout(() => {
+        router.push('/auth/login?registered=true');
+      }, 3000);
     } catch (err) {
       console.error('회원가입 오류:', err);
-      setError('회원가입 중 오류가 발생했습니다. 나중에 다시 시도해주세요.');
+      
+      if (err.message && err.message.includes('email-already-in-use')) {
+        setError('이미 사용 중인 이메일 주소입니다.');
+      } else if (err.message && err.message.includes('invalid-email')) {
+        setError('유효하지 않은 이메일 형식입니다.');
+      } else if (err.message && err.message.includes('weak-password')) {
+        setError('비밀번호가 너무 약합니다. 6자 이상 입력해주세요.');
+      } else {
+        setError('회원가입 중 오류가 발생했습니다. 나중에 다시 시도해주세요.');
+      }
     } finally {
       setLoading(false);
     }
