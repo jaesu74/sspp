@@ -890,7 +890,6 @@ export default function Home() {
         </header>
 
         <main>
-          {/* 검색 폼 */}
           <form onSubmit={handleSearch} className="search-form">
             <div className="search-container">
               <div className="search-input-group">
@@ -916,7 +915,6 @@ export default function Home() {
                 </button>
               </div>
               
-              {/* 필터 옵션 */}
               <div className="filter-container">
                 <div className="filter-group">
                   <label className="filter-label">유형</label>
@@ -959,7 +957,6 @@ export default function Home() {
             </div>
           </form>
 
-          {/* 시작 화면 */}
           {!hasSearched && searchResults.length === 0 && !searchTerm && (
             <div className="start-screen">
               <div className="help-container">
@@ -1003,7 +1000,6 @@ export default function Home() {
             </div>
           )}
 
-          {/* 검색 결과 */}
           <div className={`results-container ${hasSearched ? 'results-expanded' : ''}`}>
             {searchResults.length > 0 && (
               <div className="results-wrapper">
@@ -1042,7 +1038,6 @@ export default function Home() {
               </div>
             )}
             
-            {/* 검색 결과 없음 */}
             {searchTerm && !searching && searchResults.length === 0 && (
               <div className="no-results">
                 <div className="no-results-content">
@@ -1056,7 +1051,6 @@ export default function Home() {
             )}
           </div>
           
-          {/* 모달 팝업으로 상세 정보 표시 */}
           <DetailModal 
             item={selectedItem}
             isOpen={isModalOpen && selectedItem !== null}
@@ -1066,75 +1060,13 @@ export default function Home() {
             onRetry={handleItemSelect}
           />
         </main>
+
+        <footer className="app-footer">
+          <div className="footer-content">
+            <p>© {new Date().getFullYear()} FACTION 경제 제재 정보 검색 시스템</p>
+          </div>
+        </footer>
       </div>
-
-      <footer className="app-footer">
-        <div className="footer-content">
-          <p>© {new Date().getFullYear()} FACTION 경제 제재 정보 검색 시스템</p>
-        </div>
-      </footer>
-
-      <style jsx>{`
-        .header-content {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          padding: 0 20px;
-          width: 100%;
-        }
-        
-        .app-title {
-          margin: 0;
-          font-size: 1.8rem;
-          color: #333;
-        }
-        
-        .app-subtitle {
-          margin: 0.5rem 0 0;
-          font-size: 1rem;
-          color: white;
-        }
-        
-        .user-actions {
-          display: flex;
-          align-items: center;
-          gap: 10px;
-        }
-        
-        .user-profile-btn {
-          background-color: #2196f3;
-          color: white;
-          border: none;
-          border-radius: 4px;
-          padding: 8px 16px;
-          font-weight: 500;
-          cursor: pointer;
-          transition: background-color 0.2s;
-          max-width: 100px;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          white-space: nowrap;
-        }
-        
-        .user-profile-btn:hover {
-          background-color: #1976d2;
-        }
-        
-        .logout-btn {
-          background-color: #f44336;
-          color: white;
-          border: none;
-          border-radius: 4px;
-          padding: 8px 16px;
-          font-weight: 500;
-          cursor: pointer;
-          transition: background-color 0.2s;
-        }
-        
-        .logout-btn:hover {
-          background-color: #d32f2f;
-        }
-      `}</style>
     </div>
   );
 } 
