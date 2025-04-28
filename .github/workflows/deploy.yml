@@ -5,7 +5,7 @@ on:
     branches:
       - master
 
-# 권한 추가 후 배포 워크플로우
+# Deploy workflow after adding permissions
 jobs:
   deploy:
     name: Deploy to App Engine
@@ -57,5 +57,5 @@ jobs:
           
       - name: Deploy to App Engine
         run: |
-          echo "*** 배포 시작 ***"
-          gcloud app deploy app.yaml --quiet --promote --project=${{ secrets.GCP_PROJECT_ID }} 
+          echo "*** Starting deployment ***"
+          gcloud app deploy app.yaml --quiet --promote --project=${{ secrets.GCP_PROJECT_ID }}
