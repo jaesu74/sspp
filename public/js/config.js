@@ -26,11 +26,11 @@ const config = {
     // Firebase 설정
     firebase: {
         apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || "",
-        authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || "sp-2504.firebaseapp.com",
-        projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || "sp-2504",
-        storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || "sp-2504.firebasestorage.app",
-        messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID || "1058704122563",
-        appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID || "1:1058704122563:web:01b2ff0c777aa0e2967876"
+        authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || "sp-2504-cf8b6.firebaseapp.com",
+        projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || "sp-2504-cf8b6",
+        storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || "sp-2504-cf8b6.firebasestorage.app",
+        messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID || "300578693120",
+        appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID || "1:300578693120:web:770540805bb669ab30f8e5"
     }
 };
 

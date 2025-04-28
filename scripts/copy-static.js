@@ -1,49 +1,71 @@
 const fs = require('fs');
 const path = require('path');
 
-// 경로 정의
-const nextDir = path.join(__dirname, '../.next');
-const buildIdPath = path.join(nextDir, 'BUILD_ID');
+// 소스 및 타겟 디렉토리 설정
+const SOURCE_DIR = path.join(__dirname, '..', 'public');
+const BUILD_DIR = path.join(__dirname, '..', '.next', 'static');
 
-// BUILD_ID 파일 존재 여부 확인
-if (!fs.existsSync(buildIdPath)) {
-  console.error('BUILD_ID 파일을 찾을 수 없습니다. 빌드가 완료되었는지 확인하세요.');
-  process.exit(1);
+// 디렉토리가 존재하는지 확인하고 없으면 생성
+function ensureDirectoryExists(directory) {
+  if (!fs.existsSync(directory)) {
+    console.log(`디렉토리 생성: ${directory}`);
+    fs.mkdirSync(directory, { recursive: true });
+    return true;
+  }
+  return false;
 }
 
-// BUILD_ID 읽기
-const buildId = fs.readFileSync(buildIdPath, 'utf8').trim();
-console.log(`빌드 ID: ${buildId}`);
-
-// 정적 파일 경로 설정
-const staticSourceDir = path.join(nextDir, 'static');
-const manifestPath = path.join(nextDir, `${buildId}`, '_buildManifest.js');
-const ssgManifestPath = path.join(nextDir, `${buildId}`, '_ssgManifest.js');
-
-// 대상 디렉토리 생성
-const staticDestDir = path.join(nextDir, `static/${buildId}`);
-if (!fs.existsSync(staticDestDir)) {
-  fs.mkdirSync(staticDestDir, { recursive: true });
+// 파일 복사 함수
+function copyFile(source, target) {
+  try {
+    const fileContent = fs.readFileSync(source);
+    fs.writeFileSync(target, fileContent);
+    console.log(`파일 복사 완료: ${path.relative(process.cwd(), source)} → ${path.relative(process.cwd(), target)}`);
+    return true;
+  } catch (error) {
+    console.error(`파일 복사 실패: ${source} → ${target}`, error);
+    return false;
+  }
 }
 
-// 매니페스트 파일 복사 (루트 레벨 -> 정적 디렉토리)
-try {
-  if (fs.existsSync(manifestPath)) {
-    fs.copyFileSync(manifestPath, path.join(staticDestDir, '_buildManifest.js'));
-    console.log('_buildManifest.js 파일을 복사했습니다.');
-  } else {
-    console.warn(`${manifestPath} 파일을 찾을 수 없습니다.`);
+// 디렉토리 복사 함수
+function copyDirectory(source, target) {
+  if (!fs.existsSync(source)) {
+    console.warn(`소스 디렉토리가 존재하지 않음: ${source}`);
+    return false;
   }
 
-  if (fs.existsSync(ssgManifestPath)) {
-    fs.copyFileSync(ssgManifestPath, path.join(staticDestDir, '_ssgManifest.js'));
-    console.log('_ssgManifest.js 파일을 복사했습니다.');
-  } else {
-    console.warn(`${ssgManifestPath} 파일을 찾을 수 없습니다.`);
+  ensureDirectoryExists(target);
+  
+  let count = 0;
+  const items = fs.readdirSync(source);
+  
+  for (const item of items) {
+    const sourcePath = path.join(source, item);
+    const targetPath = path.join(target, item);
+    
+    if (fs.statSync(sourcePath).isDirectory()) {
+      count += copyDirectory(sourcePath, targetPath);
+    } else {
+      if (copyFile(sourcePath, targetPath)) {
+        count++;
+      }
+    }
   }
-} catch (err) {
-  console.error('파일 복사 중 오류가 발생했습니다:', err);
-  process.exit(1);
+  
+  return count;
 }
 
-console.log('정적 파일 복사가 완료되었습니다.'); 
+// 메인 실행 함수
+function main() {
+  console.log('정적 파일 복사 시작...');
+  
+  ensureDirectoryExists(BUILD_DIR);
+  
+  const count = copyDirectory(SOURCE_DIR, BUILD_DIR);
+  
+  console.log(`정적 파일 복사 완료: 총 ${count}개 파일 복사됨`);
+}
+
+// 스크립트 실행
+main(); 

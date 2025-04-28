@@ -2,8 +2,13 @@
 const nextConfig = {
   reactStrictMode: true,
   distDir: '.next',
-  // 정적 파일에 대한 assetPrefix 설정
+  // 정적 파일에 대한 assetPrefix 명확히 설정
   assetPrefix: process.env.NODE_ENV === 'production' ? 'https://sp.wvl.co.kr' : '',
+  // 추가: 빌드 ID 생성을 위한 generateBuildId 함수 정의
+  generateBuildId: async () => {
+    // 타임스탬프를 사용하여 고유한 빌드 ID 생성
+    return `build-${Date.now()}`;
+  },
   env: {
     // 배포 환경 URL
     NEXT_PUBLIC_BASE_URL: 'https://sp.wvl.co.kr',
@@ -28,9 +33,24 @@ const nextConfig = {
   },
   // 정적 파일 출력 설정
   output: 'standalone',
-  // 하드 네비게이션 오류 방지를 위한 설정
+  // 실험적 기능 설정
   experimental: {
     scrollRestoration: true,
+    // 추가된 설정
+    optimizeCss: true, // CSS 최적화
+    turbotrace: {
+      // 종속성 추적 개선
+      logLevel: 'error',
+    },
+  },
+  // 추가: 웹팩 설정 커스터마이징
+  webpack: (config, { isServer, dev }) => {
+    // 프로덕션 빌드에만 적용되는 최적화
+    if (!dev) {
+      config.optimization.minimize = true;
+    }
+    
+    return config;
   },
 }
 

@@ -24,7 +24,35 @@ env_variables:
   # Firebase 환경 변수들은 Google Cloud Console에서 설정됩니다.
 
 handlers:
-  # Next.js 정적 파일 제공 - 개선된 버전
+  # 매니페스트 파일 처리 (빌드 ID 포함)
+  - url: /_next/static/([^/]+)/(_buildManifest\.js|_ssgManifest\.js)
+    static_files: .next/static/\1/\2
+    upload: .next/static/[^/]+/(_buildManifest\.js|_ssgManifest\.js)
+    secure: always
+    expiration: "30d"
+  
+  # 루트 레벨 매니페스트 파일 처리 (빌드 ID 없음)
+  - url: /_next/(_buildManifest\.js|_ssgManifest\.js)
+    static_files: .next/\1
+    upload: .next/(_buildManifest\.js|_ssgManifest\.js)
+    secure: always
+    expiration: "30d"
+
+  # 앱 청크 파일 처리
+  - url: /_next/static/chunks/pages/(_app-[^/]+\.js)
+    static_files: .next/static/chunks/pages/\1
+    upload: .next/static/chunks/pages/(_app-[^/]+\.js)
+    secure: always
+    expiration: "360d"
+    
+  # 청크 파일 처리
+  - url: /_next/static/chunks/([^/]+)
+    static_files: .next/static/chunks/\1
+    upload: .next/static/chunks/([^/]+)
+    secure: always
+    expiration: "360d"
+  
+  # 일반 Next.js 정적 파일 처리
   - url: /_next/static/(.*)
     static_files: .next/static/\1
     upload: .next/static/(.*)
@@ -37,26 +65,12 @@ handlers:
     upload: .next/data/(.*)
     secure: always
     
-  # Next.js 루트 파일 처리 (_buildManifest.js, _ssgManifest.js 등)
-  - url: /_next/(.+\.(js|json))
+  # Next.js 루트 파일 처리 (js, json 등)
+  - url: /_next/([^/]+\.js)
     static_files: .next/\1
-    upload: .next/(.+\.(js|json))
+    upload: .next/([^/]+\.js)
     secure: always
     expiration: "30d"
-    
-  # 빌드 ID별 정적 파일 처리
-  - url: /_next/static/[^/]+/(.*)
-    static_files: .next/static/\1
-    upload: .next/static/(.*)
-    secure: always
-    expiration: "360d"
-    
-  # chunks 폴더 파일 명시적 처리
-  - url: /_next/static/chunks/(.*)
-    static_files: .next/static/chunks/\1
-    upload: .next/static/chunks/(.*)
-    secure: always
-    expiration: "360d"
     
   # public 정적 파일 처리
   - url: /(.*\.(ico|png|jpg|jpeg|gif|svg|css|js))
