@@ -7,10 +7,11 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/copy-static.js",
+    "build": "next build",
+    "postbuild": "node scripts/copy-static.js",
     "start": "next start",
     "lint": "next lint",
-    "clean": "if exist .next rmdir /s /q .next && if exist .firebase rmdir /s /q .firebase",
+    "clean": "if exist .next rmdir /s /q .next",
     "check-node": "node -e \"if(process.versions.node.split('.')[0] < 20) { console.error('Node.js 20 이상이 필요합니다.'); process.exit(1); }\"",
     "deploy": "npm run check-node && npm run clean && npm run build && gcloud app deploy app.yaml --project=sp-2504-cf8b6 --quiet --promote",
     "verify-deploy": "node scripts/check-static.js",

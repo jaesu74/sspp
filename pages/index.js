@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import { searchSanctions, getSanctionById } from '../lib/sanctionsService';
 import { useAuth } from '../lib/firebase/context';
 import { logoutUser } from '../lib/firebase/auth';
+import { API, MESSAGES, FILE_FORMATS } from '../lib/constants';
 
 // 팝업 모달 컴포넌트 추가
 const DetailModal = ({ item, isOpen, onClose, activeTab, setActiveTab }) => {
@@ -15,7 +16,7 @@ const DetailModal = ({ item, isOpen, onClose, activeTab, setActiveTab }) => {
       onStatusChange({ isDownloading: true });
       
       // PDF 생성을 위한 API 호출
-      const response = await fetch('/api/generate-pdf', {
+      const response = await fetch(API.PDF.GENERATE, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -24,7 +25,7 @@ const DetailModal = ({ item, isOpen, onClose, activeTab, setActiveTab }) => {
       });
       
       if (!response.ok) {
-        throw new Error('PDF 생성 중 오류가 발생했습니다.');
+        throw new Error(MESSAGES.ERRORS.PDF_GENERATION);
       }
       
       // PDF 바이너리 데이터 받기
@@ -34,7 +35,7 @@ const DetailModal = ({ item, isOpen, onClose, activeTab, setActiveTab }) => {
       // PDF 다운로드
       const link = document.createElement('a');
       link.setAttribute('href', url);
-      link.setAttribute('download', `sanction_${item.id}.pdf`);
+      link.setAttribute('download', `sanction_${item.id}.${FILE_FORMATS.PDF}`);
       link.style.visibility = 'hidden';
       document.body.appendChild(link);
       link.click();
@@ -45,7 +46,7 @@ const DetailModal = ({ item, isOpen, onClose, activeTab, setActiveTab }) => {
       onStatusChange({ isDownloading: false });
     } catch (error) {
       console.error('PDF 다운로드 중 오류:', error);
-      alert('PDF 다운로드 중 오류가 발생했습니다.');
+      alert(MESSAGES.ERRORS.PDF_GENERATION);
       onStatusChange({ isDownloading: false });
     }
   };
@@ -583,13 +584,17 @@ export default function Home() {
 
   // PDF 다운로드
   const handleDownloadPDF = async (item) => {
-    if (!item) return;
-    
     try {
-      setSelectedItem(prev => ({...prev, isDownloading: true}));
+      // 다운로드 상태 업데이트
+      const updatedItems = [...searchResults];
+      const itemIndex = updatedItems.findIndex(i => i.id === item.id);
+      if (itemIndex >= 0) {
+        updatedItems[itemIndex] = { ...updatedItems[itemIndex], isDownloading: true };
+        setSearchResults(updatedItems);
+      }
       
-      // PDF 생성을 위한 API 호출
-      const response = await fetch('/api/generate-pdf', {
+      // PDF 생성 API 호출
+      const response = await fetch(API.PDF.GENERATE, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -598,28 +603,39 @@ export default function Home() {
       });
       
       if (!response.ok) {
-        throw new Error('PDF 생성 중 오류가 발생했습니다.');
+        throw new Error(MESSAGES.ERRORS.PDF_GENERATION);
       }
       
-      // PDF 바이너리 데이터 받기
+      // 바이너리 데이터 처리
       const blob = await response.blob();
       const url = URL.createObjectURL(blob);
       
-      // PDF 다운로드
+      // 파일 다운로드
       const link = document.createElement('a');
       link.setAttribute('href', url);
-      link.setAttribute('download', `sanction_${item.id}.pdf`);
+      link.setAttribute('download', `sanction_${item.id}.${FILE_FORMATS.PDF}`);
       link.style.visibility = 'hidden';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
       URL.revokeObjectURL(url);
       
-      setSelectedItem(prev => ({...prev, isDownloading: false}));
+      // 다운로드 상태 업데이트
+      if (itemIndex >= 0) {
+        updatedItems[itemIndex] = { ...updatedItems[itemIndex], isDownloading: false };
+        setSearchResults(updatedItems);
+      }
     } catch (error) {
       console.error('PDF 다운로드 중 오류:', error);
-      alert('PDF 다운로드 중 오류가 발생했습니다.');
-      setSelectedItem(prev => ({...prev, isDownloading: false}));
+      alert(MESSAGES.ERRORS.PDF_GENERATION);
+      
+      // 오류 발생 시 다운로드 상태 업데이트
+      const updatedItems = [...searchResults];
+      const itemIndex = updatedItems.findIndex(i => i.id === item.id);
+      if (itemIndex >= 0) {
+        updatedItems[itemIndex] = { ...updatedItems[itemIndex], isDownloading: false };
+        setSearchResults(updatedItems);
+      }
     }
   };
 

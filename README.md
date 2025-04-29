@@ -17,13 +17,13 @@
 - **인증**: Firebase Authentication
 - **데이터 처리**: Node.js
 - **데이터 수집**: Python, Cron 자동화
-- **배포**: Docker, Docker Compose
+- **배포**: Google Cloud Platform
 
 ## 설치 및 실행 (개발 환경)
 
 ### 사전 요구 사항
 
-- Node.js 18.x 이상
+- Node.js 20.x 이상
 - npm 또는 yarn
 - Firebase 프로젝트 (인증 기능용)
 
@@ -75,7 +75,7 @@ npm run dev
 
 ### 자동 데이터 수집
 
-Docker 컨테이너에서 Cron을 사용하여 주 3회(월, 수, 금) 자동으로 데이터를 수집합니다.
+서버에서 Cron을 사용하여 주 3회(월, 수, 금) 자동으로 데이터를 수집합니다.
 
 수집된 데이터는 다음과 같이 관리됩니다:
 - 최신 버전과 직전 버전을 유지합니다
@@ -104,62 +104,25 @@ node scripts/remove-duplicate-data.js  # 중복 데이터 제거
 
 ## 배포 및 운영 (프로덕션 환경)
 
-### 간편 배포 (권장)
+### 배포 과정
 
-배포 스크립트를 사용하여 간편하게 배포할 수 있습니다.
+GCP App Engine에 배포하는 과정은 다음과 같습니다:
 
-1. 배포 스크립트 다운로드 및 실행
-
+1. Google Cloud SDK 설치 및 로그인
 ```bash
-# 배포 스크립트 다운로드
-curl -O https://raw.githubusercontent.com/jaesu74/SP/main/deploy.sh
-chmod +x deploy.sh
-
-# 배포 실행
-./deploy.sh
+gcloud auth login
 ```
 
-이 스크립트는 다음 작업을 자동으로 수행합니다:
-- GitHub에서 최신 코드 다운로드
-- Docker 및 Docker Compose 설정 확인
-- 애플리케이션 컨테이너 빌드 및 시작
-
-2. 배포 확인
-
-배포가 완료되면 브라우저에서 `http://localhost:3000`으로 접속하여 애플리케이션이 정상적으로 동작하는지 확인합니다.
-
-### Docker 명령어 직접 실행
-
-Docker와 Docker Compose를 직접 사용하여 배포할 수도 있습니다.
-
-1. Docker 및 Docker Compose 설치 (사전 요구사항)
-
-2. 저장소 클론 및 배포 실행
-
+2. 배포 명령어 실행
 ```bash
-git clone https://github.com/jaesu74/SP.git
-cd SP
-docker-compose up -d
+npm run deploy
 ```
 
-3. 로그 확인
-
-```bash
-# 모든 서비스 로그
-docker-compose logs -f
-
-# 웹 서버 로그만
-docker-compose logs -f web
-
-# 데이터 수집기 로그만
-docker-compose logs -f collector
-```
-
-4. 배포 중지
-
-```bash
-docker-compose down
-```
+이 명령어는 다음 작업을 수행합니다:
+- Node.js 버전 확인
+- 이전 빌드 정리
+- 프로젝트 빌드
+- GCP App Engine에 배포
 
 ### 서버 시스템 요구사항
 
@@ -171,41 +134,6 @@ docker-compose down
   - CPU: 4코어
   - RAM: 8GB
   - 디스크: 20GB
-
-## 여러 PC 환경에서의 관리
-
-### 시스템 백업
-
-시스템을 다른 PC로 이동하거나 백업하려면 Docker 볼륨 데이터를 백업해야 합니다:
-
-```bash
-# Docker 볼륨 목록 확인
-docker volume ls
-
-# Docker 볼륨 백업 (sanctions-data 볼륨)
-docker run --rm -v sanctions-data:/data -v $(pwd):/backup alpine tar -czvf /backup/sanctions-data-backup.tar.gz /data
-
-# Docker 볼륨 백업 (sanctions-logs 볼륨)
-docker run --rm -v sanctions-logs:/data -v $(pwd):/backup alpine tar -czvf /backup/sanctions-logs-backup.tar.gz /data
-```
-
-### 다른 PC에서 복원
-
-백업 파일을 새 PC로 이동한 후:
-
-```bash
-# Docker 볼륨 생성
-docker volume create sanctions-data
-docker volume create sanctions-logs
-
-# 백업에서 복원 (sanctions-data 볼륨)
-docker run --rm -v sanctions-data:/data -v $(pwd):/backup alpine sh -c "cd /data && tar -xzvf /backup/sanctions-data-backup.tar.gz --strip 1"
-
-# 백업에서 복원 (sanctions-logs 볼륨)
-docker run --rm -v sanctions-logs:/data -v $(pwd):/backup alpine sh -c "cd /data && tar -xzvf /backup/sanctions-logs-backup.tar.gz --strip 1"
-```
-
-그 후 배포 스크립트를 실행하여 시스템을 시작합니다.
 
 ## 기여 방법
 
