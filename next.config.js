@@ -36,12 +36,8 @@ const nextConfig = {
   // 실험적 기능 설정
   experimental: {
     scrollRestoration: true,
-    // 추가된 설정
-    optimizeCss: true, // CSS 최적화
-    turbotrace: {
-      // 종속성 추적 개선
-      logLevel: 'error',
-    },
+    // CSS 최적화 - Next.js 15.3.1에 맞게 설정
+    optimizeCss: true,
   },
   // 추가: 웹팩 설정 커스터마이징
   webpack: (config, { isServer, dev }) => {
