@@ -23,14 +23,16 @@ const config = {
         domainName: 'localhost'
     },
     
-    // Firebase 설정
+    // Firebase 설정 - 주의: 이 config.js 파일은 Next.js의 서버 측 환경 변수 시스템을 사용할 수 없습니다.
+    // 이 설정은 lib/firebase/config.js에서 중앙 관리하고, 환경 변수(process.env)를 통해 적절히 주입됩니다.
     firebase: {
-        apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || "",
-        authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || "sp-2504-cf8b6.firebaseapp.com",
-        projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || "sp-2504-cf8b6",
-        storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || "sp-2504-cf8b6.firebasestorage.app",
-        messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID || "300578693120",
-        appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID || "1:300578693120:web:770540805bb669ab30f8e5"
+        // 모든 값은 환경 변수에서 가져옵니다. 하드코딩하지 않습니다.
+        apiKey: "",
+        authDomain: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: "",
+        appId: ""
     }
 };
 
@@ -40,7 +42,10 @@ const currentEnv = isProduction ? 'production' : 'development';
 
 // 현재 환경에 맞는 설정 내보내기
 const CONFIG = config[currentEnv];
-const FIREBASE_CONFIG = config.firebase;
+
+// Firebase 설정은 별도로 사용하지 않음
+// 이 파일은 곧 삭제될 예정입니다. Firebase 설정은 lib/firebase/config.js를 사용하세요.
+const FIREBASE_CONFIG = {}; 
 
 // 상수 내보내기
 const API_BASE_URL = CONFIG.apiBaseUrl;
