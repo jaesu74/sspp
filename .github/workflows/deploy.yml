@@ -34,8 +34,7 @@ jobs:
           echo "Node version: $(node -v || echo 'not installed')"
           echo "Npm version: $(npm -v || echo 'not installed')"
           echo "Deploying to domain: $NEXT_PUBLIC_DOMAIN"
-          echo "Using Firebase project: $NEXT_PUBLIC_FIREBASE_PROJECT_ID"
-        
+          
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
@@ -45,17 +44,20 @@ jobs:
       - name: Install dependencies
         run: npm ci
         
-      - name: Create .env file
+      - name: Create .env file for Next.js build
         run: |
-          echo "NEXT_PUBLIC_FIREBASE_API_KEY=$NEXT_PUBLIC_FIREBASE_API_KEY" > .env
-          echo "NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=$NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN" >> .env
-          echo "NEXT_PUBLIC_FIREBASE_PROJECT_ID=$NEXT_PUBLIC_FIREBASE_PROJECT_ID" >> .env
-          echo "NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=$NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET" >> .env
-          echo "NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=$NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID" >> .env
-          echo "NEXT_PUBLIC_FIREBASE_APP_ID=$NEXT_PUBLIC_FIREBASE_APP_ID" >> .env
-          echo "NEXT_PUBLIC_BASE_URL=$NEXT_PUBLIC_BASE_URL" >> .env
-          echo "NEXT_PUBLIC_API_URL=$NEXT_PUBLIC_API_URL" >> .env
-          echo "NODE_ENV=$NODE_ENV" >> .env
+          cat > .env.production << EOL
+          NEXT_PUBLIC_FIREBASE_API_KEY=${{ secrets.NEXT_PUBLIC_FIREBASE_API_KEY }}
+          NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=${{ secrets.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN }}
+          NEXT_PUBLIC_FIREBASE_PROJECT_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_PROJECT_ID }}
+          NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=${{ secrets.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET }}
+          NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID }}
+          NEXT_PUBLIC_FIREBASE_APP_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_APP_ID }}
+          NEXT_PUBLIC_BASE_URL=https://sp.wvl.co.kr
+          NEXT_PUBLIC_API_URL=https://sp.wvl.co.kr/api
+          NODE_ENV=production
+          EOL
+          cat .env.production
 
       - name: Clean Next.js cache
         run: |
@@ -66,13 +68,33 @@ jobs:
         run: npm install critters
           
       - name: Build application
-        run: npm run build
-
-      - name: Verify build output
         run: |
-          echo "Checking build output..."
+          echo "Building with environment variables..."
+          grep -v '^#' .env.production
+          NEXT_PUBLIC_FIREBASE_API_KEY=${{ secrets.NEXT_PUBLIC_FIREBASE_API_KEY }} \
+          NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=${{ secrets.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN }} \
+          NEXT_PUBLIC_FIREBASE_PROJECT_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_PROJECT_ID }} \
+          NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=${{ secrets.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET }} \
+          NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID }} \
+          NEXT_PUBLIC_FIREBASE_APP_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_APP_ID }} \
+          NEXT_PUBLIC_BASE_URL=https://sp.wvl.co.kr \
+          NEXT_PUBLIC_API_URL=https://sp.wvl.co.kr/api \
+          npm run build
+
+      - name: Verify build output and env vars
+        run: |
+          echo "Checking Next.js build output..."
           ls -la .next || echo "No .next directory found"
           ls -la .next/static || echo "No static directory found"
+          echo "Creating runtime env file for App Engine..."
+          cat > .env.runtime << EOL
+          NEXT_PUBLIC_FIREBASE_API_KEY=${{ secrets.NEXT_PUBLIC_FIREBASE_API_KEY }}
+          NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=${{ secrets.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN }}
+          NEXT_PUBLIC_FIREBASE_PROJECT_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_PROJECT_ID }}
+          NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=${{ secrets.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET }}
+          NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID }}
+          NEXT_PUBLIC_FIREBASE_APP_ID=${{ secrets.NEXT_PUBLIC_FIREBASE_APP_ID }}
+          EOL
           
       - name: Authenticate to Google Cloud
         id: auth
@@ -86,11 +108,96 @@ jobs:
         with:
           project_id: ${{ secrets.GCP_PROJECT_ID }}
           
-      - name: Update app.yaml with environment variables
+      - name: Update app.yaml environment variables
         run: |
-          # 이미 app.yaml에 있는 NODE_ENV 환경 변수 외에는 추가하지 않음
-          echo "Using app.yaml with minimal environment variables"
-          cat app.yaml
+          # 환경 변수를 app.yaml에 추가
+          cat > app.yaml << EOL
+          runtime: nodejs20
+          env: standard
+          
+          instance_class: F1
+          
+          automatic_scaling:
+            target_cpu_utilization: 0.65
+            min_instances: 1
+            max_instances: 10
+            target_throughput_utilization: 0.6
+          
+          env_variables:
+            NODE_ENV: "production"
+            NEXT_PUBLIC_FIREBASE_API_KEY: "${{ secrets.NEXT_PUBLIC_FIREBASE_API_KEY }}"
+            NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: "${{ secrets.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN }}"
+            NEXT_PUBLIC_FIREBASE_PROJECT_ID: "${{ secrets.NEXT_PUBLIC_FIREBASE_PROJECT_ID }}"
+            NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: "${{ secrets.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET }}"
+            NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: "${{ secrets.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID }}"
+            NEXT_PUBLIC_FIREBASE_APP_ID: "${{ secrets.NEXT_PUBLIC_FIREBASE_APP_ID }}"
+            NEXT_PUBLIC_BASE_URL: "https://sp.wvl.co.kr"
+            NEXT_PUBLIC_API_URL: "https://sp.wvl.co.kr/api"
+          
+          handlers:
+            # 매니페스트 파일 처리 (빌드 ID 포함)
+            - url: /_next/static/([^/]+)/(_buildManifest\.js|_ssgManifest\.js)
+              static_files: .next/static/\1/\2
+              upload: .next/static/[^/]+/(_buildManifest\.js|_ssgManifest\.js)
+              secure: always
+              expiration: "30d"
+            
+            # 루트 레벨 매니페스트 파일 처리 (빌드 ID 없음)
+            - url: /_next/(_buildManifest\.js|_ssgManifest\.js)
+              static_files: .next/\1
+              upload: .next/(_buildManifest\.js|_ssgManifest\.js)
+              secure: always
+              expiration: "30d"
+          
+            # 앱 청크 파일 처리
+            - url: /_next/static/chunks/pages/(_app-[^/]+\.js)
+              static_files: .next/static/chunks/pages/\1
+              upload: .next/static/chunks/pages/(_app-[^/]+\.js)
+              secure: always
+              expiration: "360d"
+              
+            # 청크 파일 처리
+            - url: /_next/static/chunks/([^/]+)
+              static_files: .next/static/chunks/\1
+              upload: .next/static/chunks/([^/]+)
+              secure: always
+              expiration: "360d"
+            
+            # 일반 Next.js 정적 파일 처리
+            - url: /_next/static/(.*)
+              static_files: .next/static/\1
+              upload: .next/static/(.*)
+              secure: always
+              expiration: "360d"
+              
+            # Next.js 페이지 데이터 파일 제공
+            - url: /_next/data/(.*)
+              static_files: .next/data/\1
+              upload: .next/data/(.*)
+              secure: always
+              
+            # Next.js 루트 파일 처리 (js, json 등)
+            - url: /_next/([^/]+\.js)
+              static_files: .next/\1
+              upload: .next/([^/]+\.js)
+              secure: always
+              expiration: "30d"
+              
+            # public 정적 파일 처리
+            - url: /(.*\.(ico|png|jpg|jpeg|gif|svg|css|js))
+              static_files: public/\1
+              upload: public/.*\.(ico|png|jpg|jpeg|gif|svg|css|js)
+              secure: always
+              expiration: "7d"
+          
+            # 기본 핸들러
+            - url: /.*
+              script: auto
+              secure: always
+          
+          service: default
+          EOL
+          echo "Updated app.yaml file with safe environment variables"
           
       - name: Deploy to App Engine
         run: |
