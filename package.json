@@ -13,7 +13,7 @@
     "lint": "next lint",
     "clean": "if exist .next rmdir /s /q .next",
     "check-node": "node -e \"if(process.versions.node.split('.')[0] < 20) { console.error('Node.js 20 이상이 필요합니다.'); process.exit(1); }\"",
-    "deploy": "npm run check-node && npm run clean && npm run build && gcloud app deploy app.yaml --project=sp-2504-cf8b6 --quiet --promote"
+    "deploy": "npm run check-node && npm run clean && npm run build && gcloud app deploy app.yaml --quiet --promote"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -27,7 +27,8 @@
     "pdfkit": "^0.13.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.10.1"
+    "react-icons": "^4.10.1",
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "eslint": "8.56.0",

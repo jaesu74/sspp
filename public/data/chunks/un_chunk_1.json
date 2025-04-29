@@ -1,85 +1,1102 @@
-{
-  "meta": {
+[
+  {
+    "id": "UN-1",
+    "name": "UN 제재 대상 1",
+    "type": "individual",
+    "country": "IR",
     "source": "UN",
-    "timestamp": "2025-04-27T10:35:00Z",
-    "chunk": {
-      "index": 1,
-      "total": 1
+    "listingDate": "2025-04-29T11:53:03.718Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 1"
     }
   },
-  "data": [
-    {
-      "id": "UN-KP-001",
-      "name": "김정은",
-      "type": "individual",
-      "country": "KP",
-      "source": "UN",
-      "programs": ["DPRK"],
-      "details": {
-        "aliases": ["Kim Jong Un", "Kim Jong-un"],
-        "title": "Supreme Leader",
-        "nationality": "North Korean",
-        "birthdate": "1984-01-08",
-        "startdate": "2016-06-02",
-        "description": "북한 최고지도자"
-      }
-    },
-    {
-      "id": "UN-KP-002",
-      "name": "조선중앙은행",
-      "type": "entity",
-      "country": "KP",
-      "source": "UN",
-      "programs": ["DPRK", "Nuclear"],
-      "details": {
-        "aliases": ["Central Bank of DPRK", "Central Bank of North Korea"],
-        "address": "Pyongyang, North Korea",
-        "startdate": "2017-08-05",
-        "description": "북한 중앙은행"
-      }
-    },
-    {
-      "id": "UN-IR-001",
-      "name": "이란 혁명수비대",
-      "type": "entity",
-      "country": "IR",
-      "source": "UN",
-      "programs": ["Iran", "Counter-terrorism"],
-      "details": {
-        "aliases": ["Islamic Revolutionary Guard Corps", "IRGC"],
-        "address": "Tehran, Iran",
-        "startdate": "2007-03-24",
-        "description": "이란 혁명수비대"
-      }
-    },
-    {
-      "id": "UN-KP-003",
-      "name": "무궁화호",
-      "type": "vessel",
-      "country": "KP",
-      "source": "UN",
-      "programs": ["DPRK", "Maritime"],
-      "details": {
-        "imo": "9123456",
-        "flag": "North Korea",
-        "vessel_type": "Cargo",
-        "startdate": "2018-03-30",
-        "description": "북한 선적 화물선"
-      }
-    },
-    {
-      "id": "UN-SY-001",
-      "name": "시리아 과학연구센터",
-      "type": "entity",
-      "country": "SY",
-      "source": "UN",
-      "programs": ["Syria", "Chemical Weapons"],
-      "details": {
-        "aliases": ["Scientific Studies and Research Center", "SSRC"],
-        "address": "Damascus, Syria",
-        "startdate": "2018-04-14",
-        "description": "시리아 화학무기 개발 연구기관"
-      }
+  {
+    "id": "UN-2",
+    "name": "UN 제재 대상 2",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.832Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 2"
     }
-  ]
-} 
+  },
+  {
+    "id": "UN-3",
+    "name": "UN 제재 대상 3",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.832Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 3"
+    }
+  },
+  {
+    "id": "UN-4",
+    "name": "UN 제재 대상 4",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.832Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 4"
+    }
+  },
+  {
+    "id": "UN-5",
+    "name": "UN 제재 대상 5",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.832Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 5"
+    }
+  },
+  {
+    "id": "UN-6",
+    "name": "UN 제재 대상 6",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.832Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 6"
+    }
+  },
+  {
+    "id": "UN-7",
+    "name": "UN 제재 대상 7",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.832Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 7"
+    }
+  },
+  {
+    "id": "UN-8",
+    "name": "UN 제재 대상 8",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.832Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 8"
+    }
+  },
+  {
+    "id": "UN-9",
+    "name": "UN 제재 대상 9",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 9"
+    }
+  },
+  {
+    "id": "UN-10",
+    "name": "UN 제재 대상 10",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 10"
+    }
+  },
+  {
+    "id": "UN-11",
+    "name": "UN 제재 대상 11",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 11"
+    }
+  },
+  {
+    "id": "UN-12",
+    "name": "UN 제재 대상 12",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 12"
+    }
+  },
+  {
+    "id": "UN-13",
+    "name": "UN 제재 대상 13",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 13"
+    }
+  },
+  {
+    "id": "UN-14",
+    "name": "UN 제재 대상 14",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 14"
+    }
+  },
+  {
+    "id": "UN-15",
+    "name": "UN 제재 대상 15",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 15"
+    }
+  },
+  {
+    "id": "UN-16",
+    "name": "UN 제재 대상 16",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 16"
+    }
+  },
+  {
+    "id": "UN-17",
+    "name": "UN 제재 대상 17",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 17"
+    }
+  },
+  {
+    "id": "UN-18",
+    "name": "UN 제재 대상 18",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 18"
+    }
+  },
+  {
+    "id": "UN-19",
+    "name": "UN 제재 대상 19",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 19"
+    }
+  },
+  {
+    "id": "UN-20",
+    "name": "UN 제재 대상 20",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 20"
+    }
+  },
+  {
+    "id": "UN-21",
+    "name": "UN 제재 대상 21",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 21"
+    }
+  },
+  {
+    "id": "UN-22",
+    "name": "UN 제재 대상 22",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 22"
+    }
+  },
+  {
+    "id": "UN-23",
+    "name": "UN 제재 대상 23",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 23"
+    }
+  },
+  {
+    "id": "UN-24",
+    "name": "UN 제재 대상 24",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 24"
+    }
+  },
+  {
+    "id": "UN-25",
+    "name": "UN 제재 대상 25",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 25"
+    }
+  },
+  {
+    "id": "UN-26",
+    "name": "UN 제재 대상 26",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 26"
+    }
+  },
+  {
+    "id": "UN-27",
+    "name": "UN 제재 대상 27",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 27"
+    }
+  },
+  {
+    "id": "UN-28",
+    "name": "UN 제재 대상 28",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 28"
+    }
+  },
+  {
+    "id": "UN-29",
+    "name": "UN 제재 대상 29",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 29"
+    }
+  },
+  {
+    "id": "UN-30",
+    "name": "UN 제재 대상 30",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 30"
+    }
+  },
+  {
+    "id": "UN-31",
+    "name": "UN 제재 대상 31",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 31"
+    }
+  },
+  {
+    "id": "UN-32",
+    "name": "UN 제재 대상 32",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 32"
+    }
+  },
+  {
+    "id": "UN-33",
+    "name": "UN 제재 대상 33",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 33"
+    }
+  },
+  {
+    "id": "UN-34",
+    "name": "UN 제재 대상 34",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 34"
+    }
+  },
+  {
+    "id": "UN-35",
+    "name": "UN 제재 대상 35",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 35"
+    }
+  },
+  {
+    "id": "UN-36",
+    "name": "UN 제재 대상 36",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 36"
+    }
+  },
+  {
+    "id": "UN-37",
+    "name": "UN 제재 대상 37",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 37"
+    }
+  },
+  {
+    "id": "UN-38",
+    "name": "UN 제재 대상 38",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 38"
+    }
+  },
+  {
+    "id": "UN-39",
+    "name": "UN 제재 대상 39",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 39"
+    }
+  },
+  {
+    "id": "UN-40",
+    "name": "UN 제재 대상 40",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 40"
+    }
+  },
+  {
+    "id": "UN-41",
+    "name": "UN 제재 대상 41",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 41"
+    }
+  },
+  {
+    "id": "UN-42",
+    "name": "UN 제재 대상 42",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 42"
+    }
+  },
+  {
+    "id": "UN-43",
+    "name": "UN 제재 대상 43",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 43"
+    }
+  },
+  {
+    "id": "UN-44",
+    "name": "UN 제재 대상 44",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 44"
+    }
+  },
+  {
+    "id": "UN-45",
+    "name": "UN 제재 대상 45",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 45"
+    }
+  },
+  {
+    "id": "UN-46",
+    "name": "UN 제재 대상 46",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 46"
+    }
+  },
+  {
+    "id": "UN-47",
+    "name": "UN 제재 대상 47",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 47"
+    }
+  },
+  {
+    "id": "UN-48",
+    "name": "UN 제재 대상 48",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 48"
+    }
+  },
+  {
+    "id": "UN-49",
+    "name": "UN 제재 대상 49",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 49"
+    }
+  },
+  {
+    "id": "UN-50",
+    "name": "UN 제재 대상 50",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 50"
+    }
+  },
+  {
+    "id": "UN-51",
+    "name": "UN 제재 대상 51",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 51"
+    }
+  },
+  {
+    "id": "UN-52",
+    "name": "UN 제재 대상 52",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 52"
+    }
+  },
+  {
+    "id": "UN-53",
+    "name": "UN 제재 대상 53",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 53"
+    }
+  },
+  {
+    "id": "UN-54",
+    "name": "UN 제재 대상 54",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 54"
+    }
+  },
+  {
+    "id": "UN-55",
+    "name": "UN 제재 대상 55",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 55"
+    }
+  },
+  {
+    "id": "UN-56",
+    "name": "UN 제재 대상 56",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 56"
+    }
+  },
+  {
+    "id": "UN-57",
+    "name": "UN 제재 대상 57",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 57"
+    }
+  },
+  {
+    "id": "UN-58",
+    "name": "UN 제재 대상 58",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 58"
+    }
+  },
+  {
+    "id": "UN-59",
+    "name": "UN 제재 대상 59",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 59"
+    }
+  },
+  {
+    "id": "UN-60",
+    "name": "UN 제재 대상 60",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 60"
+    }
+  },
+  {
+    "id": "UN-61",
+    "name": "UN 제재 대상 61",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 61"
+    }
+  },
+  {
+    "id": "UN-62",
+    "name": "UN 제재 대상 62",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 62"
+    }
+  },
+  {
+    "id": "UN-63",
+    "name": "UN 제재 대상 63",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 63"
+    }
+  },
+  {
+    "id": "UN-64",
+    "name": "UN 제재 대상 64",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 64"
+    }
+  },
+  {
+    "id": "UN-65",
+    "name": "UN 제재 대상 65",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 65"
+    }
+  },
+  {
+    "id": "UN-66",
+    "name": "UN 제재 대상 66",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 66"
+    }
+  },
+  {
+    "id": "UN-67",
+    "name": "UN 제재 대상 67",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 67"
+    }
+  },
+  {
+    "id": "UN-68",
+    "name": "UN 제재 대상 68",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 68"
+    }
+  },
+  {
+    "id": "UN-69",
+    "name": "UN 제재 대상 69",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 69"
+    }
+  },
+  {
+    "id": "UN-70",
+    "name": "UN 제재 대상 70",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 70"
+    }
+  },
+  {
+    "id": "UN-71",
+    "name": "UN 제재 대상 71",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 71"
+    }
+  },
+  {
+    "id": "UN-72",
+    "name": "UN 제재 대상 72",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 72"
+    }
+  },
+  {
+    "id": "UN-73",
+    "name": "UN 제재 대상 73",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 73"
+    }
+  },
+  {
+    "id": "UN-74",
+    "name": "UN 제재 대상 74",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 74"
+    }
+  },
+  {
+    "id": "UN-75",
+    "name": "UN 제재 대상 75",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 75"
+    }
+  },
+  {
+    "id": "UN-76",
+    "name": "UN 제재 대상 76",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 76"
+    }
+  },
+  {
+    "id": "UN-77",
+    "name": "UN 제재 대상 77",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 77"
+    }
+  },
+  {
+    "id": "UN-78",
+    "name": "UN 제재 대상 78",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 78"
+    }
+  },
+  {
+    "id": "UN-79",
+    "name": "UN 제재 대상 79",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 79"
+    }
+  },
+  {
+    "id": "UN-80",
+    "name": "UN 제재 대상 80",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 80"
+    }
+  },
+  {
+    "id": "UN-81",
+    "name": "UN 제재 대상 81",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 81"
+    }
+  },
+  {
+    "id": "UN-82",
+    "name": "UN 제재 대상 82",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 82"
+    }
+  },
+  {
+    "id": "UN-83",
+    "name": "UN 제재 대상 83",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 83"
+    }
+  },
+  {
+    "id": "UN-84",
+    "name": "UN 제재 대상 84",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 84"
+    }
+  },
+  {
+    "id": "UN-85",
+    "name": "UN 제재 대상 85",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 85"
+    }
+  },
+  {
+    "id": "UN-86",
+    "name": "UN 제재 대상 86",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 86"
+    }
+  },
+  {
+    "id": "UN-87",
+    "name": "UN 제재 대상 87",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 87"
+    }
+  },
+  {
+    "id": "UN-88",
+    "name": "UN 제재 대상 88",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 88"
+    }
+  },
+  {
+    "id": "UN-89",
+    "name": "UN 제재 대상 89",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 89"
+    }
+  },
+  {
+    "id": "UN-90",
+    "name": "UN 제재 대상 90",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 90"
+    }
+  },
+  {
+    "id": "UN-91",
+    "name": "UN 제재 대상 91",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 91"
+    }
+  },
+  {
+    "id": "UN-92",
+    "name": "UN 제재 대상 92",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 92"
+    }
+  },
+  {
+    "id": "UN-93",
+    "name": "UN 제재 대상 93",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 93"
+    }
+  },
+  {
+    "id": "UN-94",
+    "name": "UN 제재 대상 94",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 94"
+    }
+  },
+  {
+    "id": "UN-95",
+    "name": "UN 제재 대상 95",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 95"
+    }
+  },
+  {
+    "id": "UN-96",
+    "name": "UN 제재 대상 96",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 96"
+    }
+  },
+  {
+    "id": "UN-97",
+    "name": "UN 제재 대상 97",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 97"
+    }
+  },
+  {
+    "id": "UN-98",
+    "name": "UN 제재 대상 98",
+    "type": "individual",
+    "country": "SY",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 98"
+    }
+  },
+  {
+    "id": "UN-99",
+    "name": "UN 제재 대상 99",
+    "type": "entity",
+    "country": "KP",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 99"
+    }
+  },
+  {
+    "id": "UN-100",
+    "name": "UN 제재 대상 100",
+    "type": "individual",
+    "country": "IR",
+    "source": "UN",
+    "listingDate": "2025-04-29T11:53:03.833Z",
+    "details": {
+      "reason": "UN 결의안에 따른 제재 대상 100"
+    }
+  }
+]

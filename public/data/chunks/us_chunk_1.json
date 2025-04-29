@@ -1,128 +1,1102 @@
-{
-  "meta": {
+[
+  {
+    "id": "US-1",
+    "name": "US 제재 대상 1",
+    "type": "aircraft",
+    "country": "CN",
     "source": "US",
-    "timestamp": "2025-04-27T10:37:00Z",
-    "chunk": {
-      "index": 1,
-      "total": 1
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 1"
     }
   },
-  "data": [
-    {
-      "id": "US-IR-001",
-      "name": "이란 이슬람 공화국",
-      "type": "entity",
-      "country": "IR",
-      "source": "US",
-      "programs": ["IRAN", "SDGT"],
-      "details": {
-        "aliases": ["Islamic Republic of Iran", "Iran"],
-        "address": "Tehran, Iran",
-        "startdate": "1984-01-19",
-        "description": "이란 정부"
-      }
-    },
-    {
-      "id": "US-RU-001",
-      "name": "로스네프트",
-      "type": "entity",
-      "country": "RU",
-      "source": "US",
-      "programs": ["UKRAINE-EO13662", "RUSSIA-EO14024"],
-      "details": {
-        "aliases": ["Rosneft", "Rosneft Oil Company"],
-        "address": "Moscow, Russia",
-        "startdate": "2014-07-16",
-        "description": "러시아 국영 석유회사"
-      }
-    },
-    {
-      "id": "US-VE-001",
-      "name": "니콜라스 마두로",
-      "type": "individual",
-      "country": "VE",
-      "source": "US",
-      "programs": ["VENEZUELA"],
-      "details": {
-        "aliases": ["Nicolas Maduro Moros"],
-        "title": "President",
-        "nationality": "Venezuelan",
-        "birthdate": "1962-11-23",
-        "startdate": "2017-07-31",
-        "description": "베네수엘라 대통령"
-      }
-    },
-    {
-      "id": "US-CN-001",
-      "name": "화웨이 테크놀로지스",
-      "type": "entity",
-      "country": "CN",
-      "source": "US",
-      "programs": ["NPWMD", "NS-ISA"],
-      "details": {
-        "aliases": ["Huawei Technologies Co., Ltd.", "华为技术有限公司"],
-        "address": "Shenzhen, China",
-        "startdate": "2019-05-16",
-        "description": "중국 통신장비 제조기업"
-      }
-    },
-    {
-      "id": "US-CU-001",
-      "name": "쿠바 군사정보부",
-      "type": "entity",
-      "country": "CU",
-      "source": "US",
-      "programs": ["CUBA"],
-      "details": {
-        "aliases": ["Dirección de Inteligencia Militar", "DIM"],
-        "address": "Havana, Cuba",
-        "startdate": "2017-11-09",
-        "description": "쿠바 군사정보기관"
-      }
-    },
-    {
-      "id": "US-KP-001",
-      "name": "조선무역은행",
-      "type": "entity",
-      "country": "KP",
-      "source": "US",
-      "programs": ["DPRK", "NPWMD"],
-      "details": {
-        "aliases": ["Foreign Trade Bank of North Korea", "FTB"],
-        "address": "Pyongyang, North Korea",
-        "startdate": "2013-03-11",
-        "description": "북한 대외 무역 담당 은행"
-      }
-    },
-    {
-      "id": "US-IR-002",
-      "name": "페르시안 걸프 스타",
-      "type": "vessel",
-      "country": "IR",
-      "source": "US",
-      "programs": ["IRAN", "IFSR"],
-      "details": {
-        "imo": "9456783",
-        "flag": "Iran",
-        "vessel_type": "Oil Tanker",
-        "startdate": "2019-08-30",
-        "description": "이란 국적 유조선"
-      }
-    },
-    {
-      "id": "US-KP-002",
-      "name": "장성택",
-      "type": "individual",
-      "country": "KP",
-      "source": "US",
-      "programs": ["DPRK"],
-      "details": {
-        "aliases": ["Jang Song Thaek", "Chang Sung-taek"],
-        "nationality": "North Korean",
-        "birthdate": "1946-02-02",
-        "startdate": "2013-01-24",
-        "description": "북한 고위 정치인"
-      }
+  {
+    "id": "US-2",
+    "name": "US 제재 대상 2",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 2"
     }
-  ]
-} 
+  },
+  {
+    "id": "US-3",
+    "name": "US 제재 대상 3",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 3"
+    }
+  },
+  {
+    "id": "US-4",
+    "name": "US 제재 대상 4",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 4"
+    }
+  },
+  {
+    "id": "US-5",
+    "name": "US 제재 대상 5",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 5"
+    }
+  },
+  {
+    "id": "US-6",
+    "name": "US 제재 대상 6",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 6"
+    }
+  },
+  {
+    "id": "US-7",
+    "name": "US 제재 대상 7",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 7"
+    }
+  },
+  {
+    "id": "US-8",
+    "name": "US 제재 대상 8",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 8"
+    }
+  },
+  {
+    "id": "US-9",
+    "name": "US 제재 대상 9",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 9"
+    }
+  },
+  {
+    "id": "US-10",
+    "name": "US 제재 대상 10",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 10"
+    }
+  },
+  {
+    "id": "US-11",
+    "name": "US 제재 대상 11",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 11"
+    }
+  },
+  {
+    "id": "US-12",
+    "name": "US 제재 대상 12",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 12"
+    }
+  },
+  {
+    "id": "US-13",
+    "name": "US 제재 대상 13",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 13"
+    }
+  },
+  {
+    "id": "US-14",
+    "name": "US 제재 대상 14",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 14"
+    }
+  },
+  {
+    "id": "US-15",
+    "name": "US 제재 대상 15",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 15"
+    }
+  },
+  {
+    "id": "US-16",
+    "name": "US 제재 대상 16",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 16"
+    }
+  },
+  {
+    "id": "US-17",
+    "name": "US 제재 대상 17",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 17"
+    }
+  },
+  {
+    "id": "US-18",
+    "name": "US 제재 대상 18",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 18"
+    }
+  },
+  {
+    "id": "US-19",
+    "name": "US 제재 대상 19",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 19"
+    }
+  },
+  {
+    "id": "US-20",
+    "name": "US 제재 대상 20",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 20"
+    }
+  },
+  {
+    "id": "US-21",
+    "name": "US 제재 대상 21",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 21"
+    }
+  },
+  {
+    "id": "US-22",
+    "name": "US 제재 대상 22",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 22"
+    }
+  },
+  {
+    "id": "US-23",
+    "name": "US 제재 대상 23",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 23"
+    }
+  },
+  {
+    "id": "US-24",
+    "name": "US 제재 대상 24",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 24"
+    }
+  },
+  {
+    "id": "US-25",
+    "name": "US 제재 대상 25",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 25"
+    }
+  },
+  {
+    "id": "US-26",
+    "name": "US 제재 대상 26",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 26"
+    }
+  },
+  {
+    "id": "US-27",
+    "name": "US 제재 대상 27",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 27"
+    }
+  },
+  {
+    "id": "US-28",
+    "name": "US 제재 대상 28",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 28"
+    }
+  },
+  {
+    "id": "US-29",
+    "name": "US 제재 대상 29",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 29"
+    }
+  },
+  {
+    "id": "US-30",
+    "name": "US 제재 대상 30",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 30"
+    }
+  },
+  {
+    "id": "US-31",
+    "name": "US 제재 대상 31",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 31"
+    }
+  },
+  {
+    "id": "US-32",
+    "name": "US 제재 대상 32",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 32"
+    }
+  },
+  {
+    "id": "US-33",
+    "name": "US 제재 대상 33",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 33"
+    }
+  },
+  {
+    "id": "US-34",
+    "name": "US 제재 대상 34",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 34"
+    }
+  },
+  {
+    "id": "US-35",
+    "name": "US 제재 대상 35",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 35"
+    }
+  },
+  {
+    "id": "US-36",
+    "name": "US 제재 대상 36",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 36"
+    }
+  },
+  {
+    "id": "US-37",
+    "name": "US 제재 대상 37",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.665Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 37"
+    }
+  },
+  {
+    "id": "US-38",
+    "name": "US 제재 대상 38",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 38"
+    }
+  },
+  {
+    "id": "US-39",
+    "name": "US 제재 대상 39",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 39"
+    }
+  },
+  {
+    "id": "US-40",
+    "name": "US 제재 대상 40",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 40"
+    }
+  },
+  {
+    "id": "US-41",
+    "name": "US 제재 대상 41",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 41"
+    }
+  },
+  {
+    "id": "US-42",
+    "name": "US 제재 대상 42",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 42"
+    }
+  },
+  {
+    "id": "US-43",
+    "name": "US 제재 대상 43",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 43"
+    }
+  },
+  {
+    "id": "US-44",
+    "name": "US 제재 대상 44",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 44"
+    }
+  },
+  {
+    "id": "US-45",
+    "name": "US 제재 대상 45",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 45"
+    }
+  },
+  {
+    "id": "US-46",
+    "name": "US 제재 대상 46",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 46"
+    }
+  },
+  {
+    "id": "US-47",
+    "name": "US 제재 대상 47",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 47"
+    }
+  },
+  {
+    "id": "US-48",
+    "name": "US 제재 대상 48",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 48"
+    }
+  },
+  {
+    "id": "US-49",
+    "name": "US 제재 대상 49",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 49"
+    }
+  },
+  {
+    "id": "US-50",
+    "name": "US 제재 대상 50",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 50"
+    }
+  },
+  {
+    "id": "US-51",
+    "name": "US 제재 대상 51",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 51"
+    }
+  },
+  {
+    "id": "US-52",
+    "name": "US 제재 대상 52",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 52"
+    }
+  },
+  {
+    "id": "US-53",
+    "name": "US 제재 대상 53",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 53"
+    }
+  },
+  {
+    "id": "US-54",
+    "name": "US 제재 대상 54",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 54"
+    }
+  },
+  {
+    "id": "US-55",
+    "name": "US 제재 대상 55",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 55"
+    }
+  },
+  {
+    "id": "US-56",
+    "name": "US 제재 대상 56",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 56"
+    }
+  },
+  {
+    "id": "US-57",
+    "name": "US 제재 대상 57",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 57"
+    }
+  },
+  {
+    "id": "US-58",
+    "name": "US 제재 대상 58",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 58"
+    }
+  },
+  {
+    "id": "US-59",
+    "name": "US 제재 대상 59",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 59"
+    }
+  },
+  {
+    "id": "US-60",
+    "name": "US 제재 대상 60",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 60"
+    }
+  },
+  {
+    "id": "US-61",
+    "name": "US 제재 대상 61",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 61"
+    }
+  },
+  {
+    "id": "US-62",
+    "name": "US 제재 대상 62",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 62"
+    }
+  },
+  {
+    "id": "US-63",
+    "name": "US 제재 대상 63",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 63"
+    }
+  },
+  {
+    "id": "US-64",
+    "name": "US 제재 대상 64",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 64"
+    }
+  },
+  {
+    "id": "US-65",
+    "name": "US 제재 대상 65",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 65"
+    }
+  },
+  {
+    "id": "US-66",
+    "name": "US 제재 대상 66",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 66"
+    }
+  },
+  {
+    "id": "US-67",
+    "name": "US 제재 대상 67",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 67"
+    }
+  },
+  {
+    "id": "US-68",
+    "name": "US 제재 대상 68",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 68"
+    }
+  },
+  {
+    "id": "US-69",
+    "name": "US 제재 대상 69",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 69"
+    }
+  },
+  {
+    "id": "US-70",
+    "name": "US 제재 대상 70",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 70"
+    }
+  },
+  {
+    "id": "US-71",
+    "name": "US 제재 대상 71",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 71"
+    }
+  },
+  {
+    "id": "US-72",
+    "name": "US 제재 대상 72",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 72"
+    }
+  },
+  {
+    "id": "US-73",
+    "name": "US 제재 대상 73",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 73"
+    }
+  },
+  {
+    "id": "US-74",
+    "name": "US 제재 대상 74",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 74"
+    }
+  },
+  {
+    "id": "US-75",
+    "name": "US 제재 대상 75",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 75"
+    }
+  },
+  {
+    "id": "US-76",
+    "name": "US 제재 대상 76",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 76"
+    }
+  },
+  {
+    "id": "US-77",
+    "name": "US 제재 대상 77",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 77"
+    }
+  },
+  {
+    "id": "US-78",
+    "name": "US 제재 대상 78",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 78"
+    }
+  },
+  {
+    "id": "US-79",
+    "name": "US 제재 대상 79",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 79"
+    }
+  },
+  {
+    "id": "US-80",
+    "name": "US 제재 대상 80",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 80"
+    }
+  },
+  {
+    "id": "US-81",
+    "name": "US 제재 대상 81",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 81"
+    }
+  },
+  {
+    "id": "US-82",
+    "name": "US 제재 대상 82",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 82"
+    }
+  },
+  {
+    "id": "US-83",
+    "name": "US 제재 대상 83",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 83"
+    }
+  },
+  {
+    "id": "US-84",
+    "name": "US 제재 대상 84",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 84"
+    }
+  },
+  {
+    "id": "US-85",
+    "name": "US 제재 대상 85",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 85"
+    }
+  },
+  {
+    "id": "US-86",
+    "name": "US 제재 대상 86",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 86"
+    }
+  },
+  {
+    "id": "US-87",
+    "name": "US 제재 대상 87",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 87"
+    }
+  },
+  {
+    "id": "US-88",
+    "name": "US 제재 대상 88",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 88"
+    }
+  },
+  {
+    "id": "US-89",
+    "name": "US 제재 대상 89",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 89"
+    }
+  },
+  {
+    "id": "US-90",
+    "name": "US 제재 대상 90",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 90"
+    }
+  },
+  {
+    "id": "US-91",
+    "name": "US 제재 대상 91",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 91"
+    }
+  },
+  {
+    "id": "US-92",
+    "name": "US 제재 대상 92",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 92"
+    }
+  },
+  {
+    "id": "US-93",
+    "name": "US 제재 대상 93",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 93"
+    }
+  },
+  {
+    "id": "US-94",
+    "name": "US 제재 대상 94",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 94"
+    }
+  },
+  {
+    "id": "US-95",
+    "name": "US 제재 대상 95",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 95"
+    }
+  },
+  {
+    "id": "US-96",
+    "name": "US 제재 대상 96",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 96"
+    }
+  },
+  {
+    "id": "US-97",
+    "name": "US 제재 대상 97",
+    "type": "aircraft",
+    "country": "CN",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 97"
+    }
+  },
+  {
+    "id": "US-98",
+    "name": "US 제재 대상 98",
+    "type": "entity",
+    "country": "CU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 98"
+    }
+  },
+  {
+    "id": "US-99",
+    "name": "US 제재 대상 99",
+    "type": "individual",
+    "country": "VE",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 99"
+    }
+  },
+  {
+    "id": "US-100",
+    "name": "US 제재 대상 100",
+    "type": "vessel",
+    "country": "RU",
+    "source": "US",
+    "listingDate": "2025-04-29T11:53:04.666Z",
+    "details": {
+      "reason": "OFAC 규제에 따른 제재 대상 100"
+    }
+  }
+]

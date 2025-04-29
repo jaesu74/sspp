@@ -1,103 +1,1102 @@
-{
-  "meta": {
+[
+  {
+    "id": "EU-1",
+    "name": "EU 제재 대상 1",
+    "type": "individual",
+    "country": "BY",
     "source": "EU",
-    "timestamp": "2025-04-27T10:36:00Z",
-    "chunk": {
-      "index": 1,
-      "total": 1
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 1"
     }
   },
-  "data": [
-    {
-      "id": "EU-RU-001",
-      "name": "블라디미르 푸틴",
-      "type": "individual",
-      "country": "RU",
-      "source": "EU",
-      "programs": ["Ukraine"],
-      "details": {
-        "aliases": ["Vladimir Putin", "Vladimir Vladimirovich Putin"],
-        "title": "President",
-        "nationality": "Russian",
-        "birthdate": "1952-10-07",
-        "startdate": "2014-07-25",
-        "description": "러시아 대통령"
-      }
-    },
-    {
-      "id": "EU-RU-002",
-      "name": "가즈프롬",
-      "type": "entity",
-      "country": "RU",
-      "source": "EU",
-      "programs": ["Ukraine", "Energy"],
-      "details": {
-        "aliases": ["Gazprom", "Public Joint Stock Company Gazprom"],
-        "address": "Moscow, Russia",
-        "startdate": "2014-09-12",
-        "description": "러시아 국영 에너지 기업"
-      }
-    },
-    {
-      "id": "EU-BY-001",
-      "name": "알렉산드르 루카셴코",
-      "type": "individual",
-      "country": "BY",
-      "source": "EU",
-      "programs": ["Belarus"],
-      "details": {
-        "aliases": ["Alexander Lukashenko"],
-        "title": "President",
-        "nationality": "Belarusian",
-        "birthdate": "1954-08-30",
-        "startdate": "2021-05-24",
-        "description": "벨라루스 대통령"
-      }
-    },
-    {
-      "id": "EU-IR-001",
-      "name": "이란 항공",
-      "type": "entity",
-      "country": "IR",
-      "source": "EU",
-      "programs": ["Iran", "Aviation"],
-      "details": {
-        "aliases": ["Iran Air", "The Airline of the Islamic Republic of Iran"],
-        "address": "Tehran, Iran",
-        "startdate": "2011-04-23",
-        "description": "이란 국영 항공사"
-      }
-    },
-    {
-      "id": "EU-SY-001",
-      "name": "바샤르 알아사드",
-      "type": "individual",
-      "country": "SY",
-      "source": "EU",
-      "programs": ["Syria"],
-      "details": {
-        "aliases": ["Bashar al-Assad", "Bashar Hafez al-Assad"],
-        "title": "President",
-        "nationality": "Syrian",
-        "birthdate": "1965-09-11",
-        "startdate": "2011-05-10",
-        "description": "시리아 대통령"
-      }
-    },
-    {
-      "id": "EU-RU-003",
-      "name": "아드미랄 쿠즈네초프",
-      "type": "vessel",
-      "country": "RU",
-      "source": "EU",
-      "programs": ["Ukraine", "Maritime"],
-      "details": {
-        "imo": "8456934",
-        "flag": "Russia",
-        "vessel_type": "Aircraft Carrier",
-        "startdate": "2022-02-25",
-        "description": "러시아 해군 항공모함"
-      }
+  {
+    "id": "EU-2",
+    "name": "EU 제재 대상 2",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 2"
     }
-  ]
-} 
+  },
+  {
+    "id": "EU-3",
+    "name": "EU 제재 대상 3",
+    "type": "individual",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 3"
+    }
+  },
+  {
+    "id": "EU-4",
+    "name": "EU 제재 대상 4",
+    "type": "entity",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 4"
+    }
+  },
+  {
+    "id": "EU-5",
+    "name": "EU 제재 대상 5",
+    "type": "individual",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 5"
+    }
+  },
+  {
+    "id": "EU-6",
+    "name": "EU 제재 대상 6",
+    "type": "entity",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 6"
+    }
+  },
+  {
+    "id": "EU-7",
+    "name": "EU 제재 대상 7",
+    "type": "individual",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 7"
+    }
+  },
+  {
+    "id": "EU-8",
+    "name": "EU 제재 대상 8",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 8"
+    }
+  },
+  {
+    "id": "EU-9",
+    "name": "EU 제재 대상 9",
+    "type": "individual",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 9"
+    }
+  },
+  {
+    "id": "EU-10",
+    "name": "EU 제재 대상 10",
+    "type": "entity",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 10"
+    }
+  },
+  {
+    "id": "EU-11",
+    "name": "EU 제재 대상 11",
+    "type": "individual",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 11"
+    }
+  },
+  {
+    "id": "EU-12",
+    "name": "EU 제재 대상 12",
+    "type": "entity",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 12"
+    }
+  },
+  {
+    "id": "EU-13",
+    "name": "EU 제재 대상 13",
+    "type": "individual",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 13"
+    }
+  },
+  {
+    "id": "EU-14",
+    "name": "EU 제재 대상 14",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 14"
+    }
+  },
+  {
+    "id": "EU-15",
+    "name": "EU 제재 대상 15",
+    "type": "individual",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 15"
+    }
+  },
+  {
+    "id": "EU-16",
+    "name": "EU 제재 대상 16",
+    "type": "entity",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 16"
+    }
+  },
+  {
+    "id": "EU-17",
+    "name": "EU 제재 대상 17",
+    "type": "individual",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 17"
+    }
+  },
+  {
+    "id": "EU-18",
+    "name": "EU 제재 대상 18",
+    "type": "entity",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 18"
+    }
+  },
+  {
+    "id": "EU-19",
+    "name": "EU 제재 대상 19",
+    "type": "individual",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 19"
+    }
+  },
+  {
+    "id": "EU-20",
+    "name": "EU 제재 대상 20",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 20"
+    }
+  },
+  {
+    "id": "EU-21",
+    "name": "EU 제재 대상 21",
+    "type": "individual",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 21"
+    }
+  },
+  {
+    "id": "EU-22",
+    "name": "EU 제재 대상 22",
+    "type": "entity",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 22"
+    }
+  },
+  {
+    "id": "EU-23",
+    "name": "EU 제재 대상 23",
+    "type": "individual",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 23"
+    }
+  },
+  {
+    "id": "EU-24",
+    "name": "EU 제재 대상 24",
+    "type": "entity",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 24"
+    }
+  },
+  {
+    "id": "EU-25",
+    "name": "EU 제재 대상 25",
+    "type": "individual",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 25"
+    }
+  },
+  {
+    "id": "EU-26",
+    "name": "EU 제재 대상 26",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 26"
+    }
+  },
+  {
+    "id": "EU-27",
+    "name": "EU 제재 대상 27",
+    "type": "individual",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 27"
+    }
+  },
+  {
+    "id": "EU-28",
+    "name": "EU 제재 대상 28",
+    "type": "entity",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 28"
+    }
+  },
+  {
+    "id": "EU-29",
+    "name": "EU 제재 대상 29",
+    "type": "individual",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 29"
+    }
+  },
+  {
+    "id": "EU-30",
+    "name": "EU 제재 대상 30",
+    "type": "entity",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 30"
+    }
+  },
+  {
+    "id": "EU-31",
+    "name": "EU 제재 대상 31",
+    "type": "individual",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 31"
+    }
+  },
+  {
+    "id": "EU-32",
+    "name": "EU 제재 대상 32",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 32"
+    }
+  },
+  {
+    "id": "EU-33",
+    "name": "EU 제재 대상 33",
+    "type": "individual",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 33"
+    }
+  },
+  {
+    "id": "EU-34",
+    "name": "EU 제재 대상 34",
+    "type": "entity",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 34"
+    }
+  },
+  {
+    "id": "EU-35",
+    "name": "EU 제재 대상 35",
+    "type": "individual",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 35"
+    }
+  },
+  {
+    "id": "EU-36",
+    "name": "EU 제재 대상 36",
+    "type": "entity",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 36"
+    }
+  },
+  {
+    "id": "EU-37",
+    "name": "EU 제재 대상 37",
+    "type": "individual",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 37"
+    }
+  },
+  {
+    "id": "EU-38",
+    "name": "EU 제재 대상 38",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 38"
+    }
+  },
+  {
+    "id": "EU-39",
+    "name": "EU 제재 대상 39",
+    "type": "individual",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 39"
+    }
+  },
+  {
+    "id": "EU-40",
+    "name": "EU 제재 대상 40",
+    "type": "entity",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 40"
+    }
+  },
+  {
+    "id": "EU-41",
+    "name": "EU 제재 대상 41",
+    "type": "individual",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 41"
+    }
+  },
+  {
+    "id": "EU-42",
+    "name": "EU 제재 대상 42",
+    "type": "entity",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 42"
+    }
+  },
+  {
+    "id": "EU-43",
+    "name": "EU 제재 대상 43",
+    "type": "individual",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 43"
+    }
+  },
+  {
+    "id": "EU-44",
+    "name": "EU 제재 대상 44",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 44"
+    }
+  },
+  {
+    "id": "EU-45",
+    "name": "EU 제재 대상 45",
+    "type": "individual",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 45"
+    }
+  },
+  {
+    "id": "EU-46",
+    "name": "EU 제재 대상 46",
+    "type": "entity",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 46"
+    }
+  },
+  {
+    "id": "EU-47",
+    "name": "EU 제재 대상 47",
+    "type": "individual",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 47"
+    }
+  },
+  {
+    "id": "EU-48",
+    "name": "EU 제재 대상 48",
+    "type": "entity",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 48"
+    }
+  },
+  {
+    "id": "EU-49",
+    "name": "EU 제재 대상 49",
+    "type": "individual",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 49"
+    }
+  },
+  {
+    "id": "EU-50",
+    "name": "EU 제재 대상 50",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 50"
+    }
+  },
+  {
+    "id": "EU-51",
+    "name": "EU 제재 대상 51",
+    "type": "individual",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 51"
+    }
+  },
+  {
+    "id": "EU-52",
+    "name": "EU 제재 대상 52",
+    "type": "entity",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 52"
+    }
+  },
+  {
+    "id": "EU-53",
+    "name": "EU 제재 대상 53",
+    "type": "individual",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 53"
+    }
+  },
+  {
+    "id": "EU-54",
+    "name": "EU 제재 대상 54",
+    "type": "entity",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 54"
+    }
+  },
+  {
+    "id": "EU-55",
+    "name": "EU 제재 대상 55",
+    "type": "individual",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 55"
+    }
+  },
+  {
+    "id": "EU-56",
+    "name": "EU 제재 대상 56",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 56"
+    }
+  },
+  {
+    "id": "EU-57",
+    "name": "EU 제재 대상 57",
+    "type": "individual",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 57"
+    }
+  },
+  {
+    "id": "EU-58",
+    "name": "EU 제재 대상 58",
+    "type": "entity",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 58"
+    }
+  },
+  {
+    "id": "EU-59",
+    "name": "EU 제재 대상 59",
+    "type": "individual",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 59"
+    }
+  },
+  {
+    "id": "EU-60",
+    "name": "EU 제재 대상 60",
+    "type": "entity",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 60"
+    }
+  },
+  {
+    "id": "EU-61",
+    "name": "EU 제재 대상 61",
+    "type": "individual",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 61"
+    }
+  },
+  {
+    "id": "EU-62",
+    "name": "EU 제재 대상 62",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 62"
+    }
+  },
+  {
+    "id": "EU-63",
+    "name": "EU 제재 대상 63",
+    "type": "individual",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 63"
+    }
+  },
+  {
+    "id": "EU-64",
+    "name": "EU 제재 대상 64",
+    "type": "entity",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 64"
+    }
+  },
+  {
+    "id": "EU-65",
+    "name": "EU 제재 대상 65",
+    "type": "individual",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 65"
+    }
+  },
+  {
+    "id": "EU-66",
+    "name": "EU 제재 대상 66",
+    "type": "entity",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 66"
+    }
+  },
+  {
+    "id": "EU-67",
+    "name": "EU 제재 대상 67",
+    "type": "individual",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 67"
+    }
+  },
+  {
+    "id": "EU-68",
+    "name": "EU 제재 대상 68",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 68"
+    }
+  },
+  {
+    "id": "EU-69",
+    "name": "EU 제재 대상 69",
+    "type": "individual",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 69"
+    }
+  },
+  {
+    "id": "EU-70",
+    "name": "EU 제재 대상 70",
+    "type": "entity",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 70"
+    }
+  },
+  {
+    "id": "EU-71",
+    "name": "EU 제재 대상 71",
+    "type": "individual",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 71"
+    }
+  },
+  {
+    "id": "EU-72",
+    "name": "EU 제재 대상 72",
+    "type": "entity",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 72"
+    }
+  },
+  {
+    "id": "EU-73",
+    "name": "EU 제재 대상 73",
+    "type": "individual",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 73"
+    }
+  },
+  {
+    "id": "EU-74",
+    "name": "EU 제재 대상 74",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 74"
+    }
+  },
+  {
+    "id": "EU-75",
+    "name": "EU 제재 대상 75",
+    "type": "individual",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 75"
+    }
+  },
+  {
+    "id": "EU-76",
+    "name": "EU 제재 대상 76",
+    "type": "entity",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 76"
+    }
+  },
+  {
+    "id": "EU-77",
+    "name": "EU 제재 대상 77",
+    "type": "individual",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 77"
+    }
+  },
+  {
+    "id": "EU-78",
+    "name": "EU 제재 대상 78",
+    "type": "entity",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 78"
+    }
+  },
+  {
+    "id": "EU-79",
+    "name": "EU 제재 대상 79",
+    "type": "individual",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 79"
+    }
+  },
+  {
+    "id": "EU-80",
+    "name": "EU 제재 대상 80",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 80"
+    }
+  },
+  {
+    "id": "EU-81",
+    "name": "EU 제재 대상 81",
+    "type": "individual",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 81"
+    }
+  },
+  {
+    "id": "EU-82",
+    "name": "EU 제재 대상 82",
+    "type": "entity",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 82"
+    }
+  },
+  {
+    "id": "EU-83",
+    "name": "EU 제재 대상 83",
+    "type": "individual",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 83"
+    }
+  },
+  {
+    "id": "EU-84",
+    "name": "EU 제재 대상 84",
+    "type": "entity",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 84"
+    }
+  },
+  {
+    "id": "EU-85",
+    "name": "EU 제재 대상 85",
+    "type": "individual",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 85"
+    }
+  },
+  {
+    "id": "EU-86",
+    "name": "EU 제재 대상 86",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 86"
+    }
+  },
+  {
+    "id": "EU-87",
+    "name": "EU 제재 대상 87",
+    "type": "individual",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 87"
+    }
+  },
+  {
+    "id": "EU-88",
+    "name": "EU 제재 대상 88",
+    "type": "entity",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 88"
+    }
+  },
+  {
+    "id": "EU-89",
+    "name": "EU 제재 대상 89",
+    "type": "individual",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 89"
+    }
+  },
+  {
+    "id": "EU-90",
+    "name": "EU 제재 대상 90",
+    "type": "entity",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 90"
+    }
+  },
+  {
+    "id": "EU-91",
+    "name": "EU 제재 대상 91",
+    "type": "individual",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 91"
+    }
+  },
+  {
+    "id": "EU-92",
+    "name": "EU 제재 대상 92",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 92"
+    }
+  },
+  {
+    "id": "EU-93",
+    "name": "EU 제재 대상 93",
+    "type": "individual",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 93"
+    }
+  },
+  {
+    "id": "EU-94",
+    "name": "EU 제재 대상 94",
+    "type": "entity",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 94"
+    }
+  },
+  {
+    "id": "EU-95",
+    "name": "EU 제재 대상 95",
+    "type": "individual",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 95"
+    }
+  },
+  {
+    "id": "EU-96",
+    "name": "EU 제재 대상 96",
+    "type": "entity",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 96"
+    }
+  },
+  {
+    "id": "EU-97",
+    "name": "EU 제재 대상 97",
+    "type": "individual",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 97"
+    }
+  },
+  {
+    "id": "EU-98",
+    "name": "EU 제재 대상 98",
+    "type": "entity",
+    "country": "IR",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 98"
+    }
+  },
+  {
+    "id": "EU-99",
+    "name": "EU 제재 대상 99",
+    "type": "individual",
+    "country": "RU",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 99"
+    }
+  },
+  {
+    "id": "EU-100",
+    "name": "EU 제재 대상 100",
+    "type": "entity",
+    "country": "BY",
+    "source": "EU",
+    "listingDate": "2025-04-29T11:53:04.265Z",
+    "details": {
+      "reason": "EU 규제에 따른 제재 대상 100"
+    }
+  }
+]

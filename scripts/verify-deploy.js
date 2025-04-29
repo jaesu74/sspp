@@ -4,7 +4,11 @@ const https = require('https');
 const { exec } = require('child_process');
 
 // 프로젝트 ID 가져오기
-const PROJECT_ID = process.env.GCP_PROJECT_ID || 'sp-2504-cf8b6';
+const PROJECT_ID = process.env.GCP_PROJECT_ID;
+if (!PROJECT_ID) {
+  console.error('GCP_PROJECT_ID 환경 변수가 설정되지 않았습니다.');
+  process.exit(1);
+}
 const APP_URL = `https://${PROJECT_ID}.du.r.appspot.com`;
 
 // 상태 확인 API 엔드포인트

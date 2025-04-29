@@ -1,0 +1,3914 @@
+{
+  "data": [
+    {
+      "id": "UN-1",
+      "name": "UN 제재 대상 1",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.718Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 1"
+      },
+      "integratedId": "INT-1",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-2",
+      "name": "UN 제재 대상 2",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.832Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 2"
+      },
+      "integratedId": "INT-2",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-3",
+      "name": "UN 제재 대상 3",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.832Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 3"
+      },
+      "integratedId": "INT-3",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-4",
+      "name": "UN 제재 대상 4",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.832Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 4"
+      },
+      "integratedId": "INT-4",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-5",
+      "name": "UN 제재 대상 5",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.832Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 5"
+      },
+      "integratedId": "INT-5",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-6",
+      "name": "UN 제재 대상 6",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.832Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 6"
+      },
+      "integratedId": "INT-6",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-7",
+      "name": "UN 제재 대상 7",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.832Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 7"
+      },
+      "integratedId": "INT-7",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-8",
+      "name": "UN 제재 대상 8",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.832Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 8"
+      },
+      "integratedId": "INT-8",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-9",
+      "name": "UN 제재 대상 9",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 9"
+      },
+      "integratedId": "INT-9",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-10",
+      "name": "UN 제재 대상 10",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 10"
+      },
+      "integratedId": "INT-10",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-11",
+      "name": "UN 제재 대상 11",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 11"
+      },
+      "integratedId": "INT-11",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-12",
+      "name": "UN 제재 대상 12",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 12"
+      },
+      "integratedId": "INT-12",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-13",
+      "name": "UN 제재 대상 13",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 13"
+      },
+      "integratedId": "INT-13",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-14",
+      "name": "UN 제재 대상 14",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 14"
+      },
+      "integratedId": "INT-14",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-15",
+      "name": "UN 제재 대상 15",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 15"
+      },
+      "integratedId": "INT-15",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-16",
+      "name": "UN 제재 대상 16",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 16"
+      },
+      "integratedId": "INT-16",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-17",
+      "name": "UN 제재 대상 17",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 17"
+      },
+      "integratedId": "INT-17",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-18",
+      "name": "UN 제재 대상 18",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 18"
+      },
+      "integratedId": "INT-18",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-19",
+      "name": "UN 제재 대상 19",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 19"
+      },
+      "integratedId": "INT-19",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-20",
+      "name": "UN 제재 대상 20",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 20"
+      },
+      "integratedId": "INT-20",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-21",
+      "name": "UN 제재 대상 21",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 21"
+      },
+      "integratedId": "INT-21",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-22",
+      "name": "UN 제재 대상 22",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 22"
+      },
+      "integratedId": "INT-22",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-23",
+      "name": "UN 제재 대상 23",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 23"
+      },
+      "integratedId": "INT-23",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-24",
+      "name": "UN 제재 대상 24",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 24"
+      },
+      "integratedId": "INT-24",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-25",
+      "name": "UN 제재 대상 25",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 25"
+      },
+      "integratedId": "INT-25",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-26",
+      "name": "UN 제재 대상 26",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 26"
+      },
+      "integratedId": "INT-26",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-27",
+      "name": "UN 제재 대상 27",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 27"
+      },
+      "integratedId": "INT-27",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-28",
+      "name": "UN 제재 대상 28",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 28"
+      },
+      "integratedId": "INT-28",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-29",
+      "name": "UN 제재 대상 29",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 29"
+      },
+      "integratedId": "INT-29",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-30",
+      "name": "UN 제재 대상 30",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 30"
+      },
+      "integratedId": "INT-30",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-31",
+      "name": "UN 제재 대상 31",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 31"
+      },
+      "integratedId": "INT-31",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-32",
+      "name": "UN 제재 대상 32",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 32"
+      },
+      "integratedId": "INT-32",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-33",
+      "name": "UN 제재 대상 33",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 33"
+      },
+      "integratedId": "INT-33",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-34",
+      "name": "UN 제재 대상 34",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 34"
+      },
+      "integratedId": "INT-34",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-35",
+      "name": "UN 제재 대상 35",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 35"
+      },
+      "integratedId": "INT-35",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-36",
+      "name": "UN 제재 대상 36",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 36"
+      },
+      "integratedId": "INT-36",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-37",
+      "name": "UN 제재 대상 37",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 37"
+      },
+      "integratedId": "INT-37",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-38",
+      "name": "UN 제재 대상 38",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 38"
+      },
+      "integratedId": "INT-38",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-39",
+      "name": "UN 제재 대상 39",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 39"
+      },
+      "integratedId": "INT-39",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-40",
+      "name": "UN 제재 대상 40",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 40"
+      },
+      "integratedId": "INT-40",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-41",
+      "name": "UN 제재 대상 41",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 41"
+      },
+      "integratedId": "INT-41",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-42",
+      "name": "UN 제재 대상 42",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 42"
+      },
+      "integratedId": "INT-42",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-43",
+      "name": "UN 제재 대상 43",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 43"
+      },
+      "integratedId": "INT-43",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-44",
+      "name": "UN 제재 대상 44",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 44"
+      },
+      "integratedId": "INT-44",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-45",
+      "name": "UN 제재 대상 45",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 45"
+      },
+      "integratedId": "INT-45",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-46",
+      "name": "UN 제재 대상 46",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 46"
+      },
+      "integratedId": "INT-46",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-47",
+      "name": "UN 제재 대상 47",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 47"
+      },
+      "integratedId": "INT-47",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-48",
+      "name": "UN 제재 대상 48",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 48"
+      },
+      "integratedId": "INT-48",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-49",
+      "name": "UN 제재 대상 49",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 49"
+      },
+      "integratedId": "INT-49",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-50",
+      "name": "UN 제재 대상 50",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 50"
+      },
+      "integratedId": "INT-50",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-51",
+      "name": "UN 제재 대상 51",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 51"
+      },
+      "integratedId": "INT-51",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-52",
+      "name": "UN 제재 대상 52",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 52"
+      },
+      "integratedId": "INT-52",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-53",
+      "name": "UN 제재 대상 53",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 53"
+      },
+      "integratedId": "INT-53",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-54",
+      "name": "UN 제재 대상 54",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 54"
+      },
+      "integratedId": "INT-54",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-55",
+      "name": "UN 제재 대상 55",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 55"
+      },
+      "integratedId": "INT-55",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-56",
+      "name": "UN 제재 대상 56",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 56"
+      },
+      "integratedId": "INT-56",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-57",
+      "name": "UN 제재 대상 57",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 57"
+      },
+      "integratedId": "INT-57",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-58",
+      "name": "UN 제재 대상 58",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 58"
+      },
+      "integratedId": "INT-58",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-59",
+      "name": "UN 제재 대상 59",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 59"
+      },
+      "integratedId": "INT-59",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-60",
+      "name": "UN 제재 대상 60",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 60"
+      },
+      "integratedId": "INT-60",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-61",
+      "name": "UN 제재 대상 61",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 61"
+      },
+      "integratedId": "INT-61",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-62",
+      "name": "UN 제재 대상 62",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 62"
+      },
+      "integratedId": "INT-62",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-63",
+      "name": "UN 제재 대상 63",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 63"
+      },
+      "integratedId": "INT-63",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-64",
+      "name": "UN 제재 대상 64",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 64"
+      },
+      "integratedId": "INT-64",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-65",
+      "name": "UN 제재 대상 65",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 65"
+      },
+      "integratedId": "INT-65",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-66",
+      "name": "UN 제재 대상 66",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 66"
+      },
+      "integratedId": "INT-66",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-67",
+      "name": "UN 제재 대상 67",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 67"
+      },
+      "integratedId": "INT-67",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-68",
+      "name": "UN 제재 대상 68",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 68"
+      },
+      "integratedId": "INT-68",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-69",
+      "name": "UN 제재 대상 69",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 69"
+      },
+      "integratedId": "INT-69",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-70",
+      "name": "UN 제재 대상 70",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 70"
+      },
+      "integratedId": "INT-70",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-71",
+      "name": "UN 제재 대상 71",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 71"
+      },
+      "integratedId": "INT-71",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-72",
+      "name": "UN 제재 대상 72",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 72"
+      },
+      "integratedId": "INT-72",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-73",
+      "name": "UN 제재 대상 73",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 73"
+      },
+      "integratedId": "INT-73",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-74",
+      "name": "UN 제재 대상 74",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 74"
+      },
+      "integratedId": "INT-74",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-75",
+      "name": "UN 제재 대상 75",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 75"
+      },
+      "integratedId": "INT-75",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-76",
+      "name": "UN 제재 대상 76",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 76"
+      },
+      "integratedId": "INT-76",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-77",
+      "name": "UN 제재 대상 77",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 77"
+      },
+      "integratedId": "INT-77",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-78",
+      "name": "UN 제재 대상 78",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 78"
+      },
+      "integratedId": "INT-78",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-79",
+      "name": "UN 제재 대상 79",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 79"
+      },
+      "integratedId": "INT-79",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-80",
+      "name": "UN 제재 대상 80",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 80"
+      },
+      "integratedId": "INT-80",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-81",
+      "name": "UN 제재 대상 81",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 81"
+      },
+      "integratedId": "INT-81",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-82",
+      "name": "UN 제재 대상 82",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 82"
+      },
+      "integratedId": "INT-82",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-83",
+      "name": "UN 제재 대상 83",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 83"
+      },
+      "integratedId": "INT-83",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-84",
+      "name": "UN 제재 대상 84",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 84"
+      },
+      "integratedId": "INT-84",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-85",
+      "name": "UN 제재 대상 85",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 85"
+      },
+      "integratedId": "INT-85",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-86",
+      "name": "UN 제재 대상 86",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 86"
+      },
+      "integratedId": "INT-86",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-87",
+      "name": "UN 제재 대상 87",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 87"
+      },
+      "integratedId": "INT-87",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-88",
+      "name": "UN 제재 대상 88",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 88"
+      },
+      "integratedId": "INT-88",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-89",
+      "name": "UN 제재 대상 89",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 89"
+      },
+      "integratedId": "INT-89",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-90",
+      "name": "UN 제재 대상 90",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 90"
+      },
+      "integratedId": "INT-90",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-91",
+      "name": "UN 제재 대상 91",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 91"
+      },
+      "integratedId": "INT-91",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-92",
+      "name": "UN 제재 대상 92",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 92"
+      },
+      "integratedId": "INT-92",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-93",
+      "name": "UN 제재 대상 93",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 93"
+      },
+      "integratedId": "INT-93",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-94",
+      "name": "UN 제재 대상 94",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 94"
+      },
+      "integratedId": "INT-94",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-95",
+      "name": "UN 제재 대상 95",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 95"
+      },
+      "integratedId": "INT-95",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-96",
+      "name": "UN 제재 대상 96",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 96"
+      },
+      "integratedId": "INT-96",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-97",
+      "name": "UN 제재 대상 97",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 97"
+      },
+      "integratedId": "INT-97",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-98",
+      "name": "UN 제재 대상 98",
+      "type": "individual",
+      "country": "SY",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 98"
+      },
+      "integratedId": "INT-98",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-99",
+      "name": "UN 제재 대상 99",
+      "type": "entity",
+      "country": "KP",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 99"
+      },
+      "integratedId": "INT-99",
+      "originalSource": "UN"
+    },
+    {
+      "id": "UN-100",
+      "name": "UN 제재 대상 100",
+      "type": "individual",
+      "country": "IR",
+      "source": "UN",
+      "listingDate": "2025-04-29T11:53:03.833Z",
+      "details": {
+        "reason": "UN 결의안에 따른 제재 대상 100"
+      },
+      "integratedId": "INT-100",
+      "originalSource": "UN"
+    },
+    {
+      "id": "EU-1",
+      "name": "EU 제재 대상 1",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 1"
+      },
+      "integratedId": "INT-101",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-2",
+      "name": "EU 제재 대상 2",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 2"
+      },
+      "integratedId": "INT-102",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-3",
+      "name": "EU 제재 대상 3",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 3"
+      },
+      "integratedId": "INT-103",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-4",
+      "name": "EU 제재 대상 4",
+      "type": "entity",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 4"
+      },
+      "integratedId": "INT-104",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-5",
+      "name": "EU 제재 대상 5",
+      "type": "individual",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 5"
+      },
+      "integratedId": "INT-105",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-6",
+      "name": "EU 제재 대상 6",
+      "type": "entity",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 6"
+      },
+      "integratedId": "INT-106",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-7",
+      "name": "EU 제재 대상 7",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 7"
+      },
+      "integratedId": "INT-107",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-8",
+      "name": "EU 제재 대상 8",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 8"
+      },
+      "integratedId": "INT-108",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-9",
+      "name": "EU 제재 대상 9",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 9"
+      },
+      "integratedId": "INT-109",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-10",
+      "name": "EU 제재 대상 10",
+      "type": "entity",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 10"
+      },
+      "integratedId": "INT-110",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-11",
+      "name": "EU 제재 대상 11",
+      "type": "individual",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 11"
+      },
+      "integratedId": "INT-111",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-12",
+      "name": "EU 제재 대상 12",
+      "type": "entity",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 12"
+      },
+      "integratedId": "INT-112",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-13",
+      "name": "EU 제재 대상 13",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 13"
+      },
+      "integratedId": "INT-113",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-14",
+      "name": "EU 제재 대상 14",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 14"
+      },
+      "integratedId": "INT-114",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-15",
+      "name": "EU 제재 대상 15",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 15"
+      },
+      "integratedId": "INT-115",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-16",
+      "name": "EU 제재 대상 16",
+      "type": "entity",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 16"
+      },
+      "integratedId": "INT-116",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-17",
+      "name": "EU 제재 대상 17",
+      "type": "individual",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 17"
+      },
+      "integratedId": "INT-117",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-18",
+      "name": "EU 제재 대상 18",
+      "type": "entity",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 18"
+      },
+      "integratedId": "INT-118",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-19",
+      "name": "EU 제재 대상 19",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 19"
+      },
+      "integratedId": "INT-119",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-20",
+      "name": "EU 제재 대상 20",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 20"
+      },
+      "integratedId": "INT-120",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-21",
+      "name": "EU 제재 대상 21",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 21"
+      },
+      "integratedId": "INT-121",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-22",
+      "name": "EU 제재 대상 22",
+      "type": "entity",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 22"
+      },
+      "integratedId": "INT-122",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-23",
+      "name": "EU 제재 대상 23",
+      "type": "individual",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 23"
+      },
+      "integratedId": "INT-123",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-24",
+      "name": "EU 제재 대상 24",
+      "type": "entity",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 24"
+      },
+      "integratedId": "INT-124",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-25",
+      "name": "EU 제재 대상 25",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 25"
+      },
+      "integratedId": "INT-125",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-26",
+      "name": "EU 제재 대상 26",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 26"
+      },
+      "integratedId": "INT-126",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-27",
+      "name": "EU 제재 대상 27",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 27"
+      },
+      "integratedId": "INT-127",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-28",
+      "name": "EU 제재 대상 28",
+      "type": "entity",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 28"
+      },
+      "integratedId": "INT-128",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-29",
+      "name": "EU 제재 대상 29",
+      "type": "individual",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 29"
+      },
+      "integratedId": "INT-129",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-30",
+      "name": "EU 제재 대상 30",
+      "type": "entity",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 30"
+      },
+      "integratedId": "INT-130",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-31",
+      "name": "EU 제재 대상 31",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 31"
+      },
+      "integratedId": "INT-131",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-32",
+      "name": "EU 제재 대상 32",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 32"
+      },
+      "integratedId": "INT-132",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-33",
+      "name": "EU 제재 대상 33",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 33"
+      },
+      "integratedId": "INT-133",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-34",
+      "name": "EU 제재 대상 34",
+      "type": "entity",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 34"
+      },
+      "integratedId": "INT-134",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-35",
+      "name": "EU 제재 대상 35",
+      "type": "individual",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 35"
+      },
+      "integratedId": "INT-135",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-36",
+      "name": "EU 제재 대상 36",
+      "type": "entity",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 36"
+      },
+      "integratedId": "INT-136",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-37",
+      "name": "EU 제재 대상 37",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 37"
+      },
+      "integratedId": "INT-137",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-38",
+      "name": "EU 제재 대상 38",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 38"
+      },
+      "integratedId": "INT-138",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-39",
+      "name": "EU 제재 대상 39",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 39"
+      },
+      "integratedId": "INT-139",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-40",
+      "name": "EU 제재 대상 40",
+      "type": "entity",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 40"
+      },
+      "integratedId": "INT-140",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-41",
+      "name": "EU 제재 대상 41",
+      "type": "individual",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 41"
+      },
+      "integratedId": "INT-141",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-42",
+      "name": "EU 제재 대상 42",
+      "type": "entity",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 42"
+      },
+      "integratedId": "INT-142",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-43",
+      "name": "EU 제재 대상 43",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 43"
+      },
+      "integratedId": "INT-143",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-44",
+      "name": "EU 제재 대상 44",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 44"
+      },
+      "integratedId": "INT-144",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-45",
+      "name": "EU 제재 대상 45",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 45"
+      },
+      "integratedId": "INT-145",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-46",
+      "name": "EU 제재 대상 46",
+      "type": "entity",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 46"
+      },
+      "integratedId": "INT-146",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-47",
+      "name": "EU 제재 대상 47",
+      "type": "individual",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 47"
+      },
+      "integratedId": "INT-147",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-48",
+      "name": "EU 제재 대상 48",
+      "type": "entity",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 48"
+      },
+      "integratedId": "INT-148",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-49",
+      "name": "EU 제재 대상 49",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 49"
+      },
+      "integratedId": "INT-149",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-50",
+      "name": "EU 제재 대상 50",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 50"
+      },
+      "integratedId": "INT-150",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-51",
+      "name": "EU 제재 대상 51",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 51"
+      },
+      "integratedId": "INT-151",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-52",
+      "name": "EU 제재 대상 52",
+      "type": "entity",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 52"
+      },
+      "integratedId": "INT-152",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-53",
+      "name": "EU 제재 대상 53",
+      "type": "individual",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 53"
+      },
+      "integratedId": "INT-153",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-54",
+      "name": "EU 제재 대상 54",
+      "type": "entity",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 54"
+      },
+      "integratedId": "INT-154",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-55",
+      "name": "EU 제재 대상 55",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 55"
+      },
+      "integratedId": "INT-155",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-56",
+      "name": "EU 제재 대상 56",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 56"
+      },
+      "integratedId": "INT-156",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-57",
+      "name": "EU 제재 대상 57",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 57"
+      },
+      "integratedId": "INT-157",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-58",
+      "name": "EU 제재 대상 58",
+      "type": "entity",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 58"
+      },
+      "integratedId": "INT-158",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-59",
+      "name": "EU 제재 대상 59",
+      "type": "individual",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 59"
+      },
+      "integratedId": "INT-159",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-60",
+      "name": "EU 제재 대상 60",
+      "type": "entity",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 60"
+      },
+      "integratedId": "INT-160",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-61",
+      "name": "EU 제재 대상 61",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 61"
+      },
+      "integratedId": "INT-161",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-62",
+      "name": "EU 제재 대상 62",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 62"
+      },
+      "integratedId": "INT-162",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-63",
+      "name": "EU 제재 대상 63",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 63"
+      },
+      "integratedId": "INT-163",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-64",
+      "name": "EU 제재 대상 64",
+      "type": "entity",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 64"
+      },
+      "integratedId": "INT-164",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-65",
+      "name": "EU 제재 대상 65",
+      "type": "individual",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 65"
+      },
+      "integratedId": "INT-165",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-66",
+      "name": "EU 제재 대상 66",
+      "type": "entity",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 66"
+      },
+      "integratedId": "INT-166",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-67",
+      "name": "EU 제재 대상 67",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 67"
+      },
+      "integratedId": "INT-167",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-68",
+      "name": "EU 제재 대상 68",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 68"
+      },
+      "integratedId": "INT-168",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-69",
+      "name": "EU 제재 대상 69",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 69"
+      },
+      "integratedId": "INT-169",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-70",
+      "name": "EU 제재 대상 70",
+      "type": "entity",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 70"
+      },
+      "integratedId": "INT-170",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-71",
+      "name": "EU 제재 대상 71",
+      "type": "individual",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 71"
+      },
+      "integratedId": "INT-171",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-72",
+      "name": "EU 제재 대상 72",
+      "type": "entity",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 72"
+      },
+      "integratedId": "INT-172",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-73",
+      "name": "EU 제재 대상 73",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 73"
+      },
+      "integratedId": "INT-173",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-74",
+      "name": "EU 제재 대상 74",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 74"
+      },
+      "integratedId": "INT-174",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-75",
+      "name": "EU 제재 대상 75",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 75"
+      },
+      "integratedId": "INT-175",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-76",
+      "name": "EU 제재 대상 76",
+      "type": "entity",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 76"
+      },
+      "integratedId": "INT-176",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-77",
+      "name": "EU 제재 대상 77",
+      "type": "individual",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 77"
+      },
+      "integratedId": "INT-177",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-78",
+      "name": "EU 제재 대상 78",
+      "type": "entity",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 78"
+      },
+      "integratedId": "INT-178",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-79",
+      "name": "EU 제재 대상 79",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 79"
+      },
+      "integratedId": "INT-179",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-80",
+      "name": "EU 제재 대상 80",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 80"
+      },
+      "integratedId": "INT-180",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-81",
+      "name": "EU 제재 대상 81",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 81"
+      },
+      "integratedId": "INT-181",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-82",
+      "name": "EU 제재 대상 82",
+      "type": "entity",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 82"
+      },
+      "integratedId": "INT-182",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-83",
+      "name": "EU 제재 대상 83",
+      "type": "individual",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 83"
+      },
+      "integratedId": "INT-183",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-84",
+      "name": "EU 제재 대상 84",
+      "type": "entity",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 84"
+      },
+      "integratedId": "INT-184",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-85",
+      "name": "EU 제재 대상 85",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 85"
+      },
+      "integratedId": "INT-185",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-86",
+      "name": "EU 제재 대상 86",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 86"
+      },
+      "integratedId": "INT-186",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-87",
+      "name": "EU 제재 대상 87",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 87"
+      },
+      "integratedId": "INT-187",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-88",
+      "name": "EU 제재 대상 88",
+      "type": "entity",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 88"
+      },
+      "integratedId": "INT-188",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-89",
+      "name": "EU 제재 대상 89",
+      "type": "individual",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 89"
+      },
+      "integratedId": "INT-189",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-90",
+      "name": "EU 제재 대상 90",
+      "type": "entity",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 90"
+      },
+      "integratedId": "INT-190",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-91",
+      "name": "EU 제재 대상 91",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 91"
+      },
+      "integratedId": "INT-191",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-92",
+      "name": "EU 제재 대상 92",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 92"
+      },
+      "integratedId": "INT-192",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-93",
+      "name": "EU 제재 대상 93",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 93"
+      },
+      "integratedId": "INT-193",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-94",
+      "name": "EU 제재 대상 94",
+      "type": "entity",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 94"
+      },
+      "integratedId": "INT-194",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-95",
+      "name": "EU 제재 대상 95",
+      "type": "individual",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 95"
+      },
+      "integratedId": "INT-195",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-96",
+      "name": "EU 제재 대상 96",
+      "type": "entity",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 96"
+      },
+      "integratedId": "INT-196",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-97",
+      "name": "EU 제재 대상 97",
+      "type": "individual",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 97"
+      },
+      "integratedId": "INT-197",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-98",
+      "name": "EU 제재 대상 98",
+      "type": "entity",
+      "country": "IR",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 98"
+      },
+      "integratedId": "INT-198",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-99",
+      "name": "EU 제재 대상 99",
+      "type": "individual",
+      "country": "RU",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 99"
+      },
+      "integratedId": "INT-199",
+      "originalSource": "EU"
+    },
+    {
+      "id": "EU-100",
+      "name": "EU 제재 대상 100",
+      "type": "entity",
+      "country": "BY",
+      "source": "EU",
+      "listingDate": "2025-04-29T11:53:04.265Z",
+      "details": {
+        "reason": "EU 규제에 따른 제재 대상 100"
+      },
+      "integratedId": "INT-200",
+      "originalSource": "EU"
+    },
+    {
+      "id": "US-1",
+      "name": "US 제재 대상 1",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 1"
+      },
+      "integratedId": "INT-201",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-2",
+      "name": "US 제재 대상 2",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 2"
+      },
+      "integratedId": "INT-202",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-3",
+      "name": "US 제재 대상 3",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 3"
+      },
+      "integratedId": "INT-203",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-4",
+      "name": "US 제재 대상 4",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 4"
+      },
+      "integratedId": "INT-204",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-5",
+      "name": "US 제재 대상 5",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 5"
+      },
+      "integratedId": "INT-205",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-6",
+      "name": "US 제재 대상 6",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 6"
+      },
+      "integratedId": "INT-206",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-7",
+      "name": "US 제재 대상 7",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 7"
+      },
+      "integratedId": "INT-207",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-8",
+      "name": "US 제재 대상 8",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 8"
+      },
+      "integratedId": "INT-208",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-9",
+      "name": "US 제재 대상 9",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 9"
+      },
+      "integratedId": "INT-209",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-10",
+      "name": "US 제재 대상 10",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 10"
+      },
+      "integratedId": "INT-210",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-11",
+      "name": "US 제재 대상 11",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 11"
+      },
+      "integratedId": "INT-211",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-12",
+      "name": "US 제재 대상 12",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 12"
+      },
+      "integratedId": "INT-212",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-13",
+      "name": "US 제재 대상 13",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 13"
+      },
+      "integratedId": "INT-213",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-14",
+      "name": "US 제재 대상 14",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 14"
+      },
+      "integratedId": "INT-214",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-15",
+      "name": "US 제재 대상 15",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 15"
+      },
+      "integratedId": "INT-215",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-16",
+      "name": "US 제재 대상 16",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 16"
+      },
+      "integratedId": "INT-216",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-17",
+      "name": "US 제재 대상 17",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 17"
+      },
+      "integratedId": "INT-217",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-18",
+      "name": "US 제재 대상 18",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 18"
+      },
+      "integratedId": "INT-218",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-19",
+      "name": "US 제재 대상 19",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 19"
+      },
+      "integratedId": "INT-219",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-20",
+      "name": "US 제재 대상 20",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 20"
+      },
+      "integratedId": "INT-220",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-21",
+      "name": "US 제재 대상 21",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 21"
+      },
+      "integratedId": "INT-221",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-22",
+      "name": "US 제재 대상 22",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 22"
+      },
+      "integratedId": "INT-222",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-23",
+      "name": "US 제재 대상 23",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 23"
+      },
+      "integratedId": "INT-223",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-24",
+      "name": "US 제재 대상 24",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 24"
+      },
+      "integratedId": "INT-224",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-25",
+      "name": "US 제재 대상 25",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 25"
+      },
+      "integratedId": "INT-225",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-26",
+      "name": "US 제재 대상 26",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 26"
+      },
+      "integratedId": "INT-226",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-27",
+      "name": "US 제재 대상 27",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 27"
+      },
+      "integratedId": "INT-227",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-28",
+      "name": "US 제재 대상 28",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 28"
+      },
+      "integratedId": "INT-228",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-29",
+      "name": "US 제재 대상 29",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 29"
+      },
+      "integratedId": "INT-229",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-30",
+      "name": "US 제재 대상 30",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 30"
+      },
+      "integratedId": "INT-230",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-31",
+      "name": "US 제재 대상 31",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 31"
+      },
+      "integratedId": "INT-231",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-32",
+      "name": "US 제재 대상 32",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 32"
+      },
+      "integratedId": "INT-232",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-33",
+      "name": "US 제재 대상 33",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 33"
+      },
+      "integratedId": "INT-233",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-34",
+      "name": "US 제재 대상 34",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 34"
+      },
+      "integratedId": "INT-234",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-35",
+      "name": "US 제재 대상 35",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 35"
+      },
+      "integratedId": "INT-235",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-36",
+      "name": "US 제재 대상 36",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 36"
+      },
+      "integratedId": "INT-236",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-37",
+      "name": "US 제재 대상 37",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.665Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 37"
+      },
+      "integratedId": "INT-237",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-38",
+      "name": "US 제재 대상 38",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 38"
+      },
+      "integratedId": "INT-238",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-39",
+      "name": "US 제재 대상 39",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 39"
+      },
+      "integratedId": "INT-239",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-40",
+      "name": "US 제재 대상 40",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 40"
+      },
+      "integratedId": "INT-240",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-41",
+      "name": "US 제재 대상 41",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 41"
+      },
+      "integratedId": "INT-241",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-42",
+      "name": "US 제재 대상 42",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 42"
+      },
+      "integratedId": "INT-242",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-43",
+      "name": "US 제재 대상 43",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 43"
+      },
+      "integratedId": "INT-243",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-44",
+      "name": "US 제재 대상 44",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 44"
+      },
+      "integratedId": "INT-244",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-45",
+      "name": "US 제재 대상 45",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 45"
+      },
+      "integratedId": "INT-245",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-46",
+      "name": "US 제재 대상 46",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 46"
+      },
+      "integratedId": "INT-246",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-47",
+      "name": "US 제재 대상 47",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 47"
+      },
+      "integratedId": "INT-247",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-48",
+      "name": "US 제재 대상 48",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 48"
+      },
+      "integratedId": "INT-248",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-49",
+      "name": "US 제재 대상 49",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 49"
+      },
+      "integratedId": "INT-249",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-50",
+      "name": "US 제재 대상 50",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 50"
+      },
+      "integratedId": "INT-250",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-51",
+      "name": "US 제재 대상 51",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 51"
+      },
+      "integratedId": "INT-251",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-52",
+      "name": "US 제재 대상 52",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 52"
+      },
+      "integratedId": "INT-252",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-53",
+      "name": "US 제재 대상 53",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 53"
+      },
+      "integratedId": "INT-253",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-54",
+      "name": "US 제재 대상 54",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 54"
+      },
+      "integratedId": "INT-254",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-55",
+      "name": "US 제재 대상 55",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 55"
+      },
+      "integratedId": "INT-255",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-56",
+      "name": "US 제재 대상 56",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 56"
+      },
+      "integratedId": "INT-256",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-57",
+      "name": "US 제재 대상 57",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 57"
+      },
+      "integratedId": "INT-257",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-58",
+      "name": "US 제재 대상 58",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 58"
+      },
+      "integratedId": "INT-258",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-59",
+      "name": "US 제재 대상 59",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 59"
+      },
+      "integratedId": "INT-259",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-60",
+      "name": "US 제재 대상 60",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 60"
+      },
+      "integratedId": "INT-260",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-61",
+      "name": "US 제재 대상 61",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 61"
+      },
+      "integratedId": "INT-261",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-62",
+      "name": "US 제재 대상 62",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 62"
+      },
+      "integratedId": "INT-262",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-63",
+      "name": "US 제재 대상 63",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 63"
+      },
+      "integratedId": "INT-263",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-64",
+      "name": "US 제재 대상 64",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 64"
+      },
+      "integratedId": "INT-264",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-65",
+      "name": "US 제재 대상 65",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 65"
+      },
+      "integratedId": "INT-265",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-66",
+      "name": "US 제재 대상 66",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 66"
+      },
+      "integratedId": "INT-266",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-67",
+      "name": "US 제재 대상 67",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 67"
+      },
+      "integratedId": "INT-267",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-68",
+      "name": "US 제재 대상 68",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 68"
+      },
+      "integratedId": "INT-268",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-69",
+      "name": "US 제재 대상 69",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 69"
+      },
+      "integratedId": "INT-269",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-70",
+      "name": "US 제재 대상 70",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 70"
+      },
+      "integratedId": "INT-270",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-71",
+      "name": "US 제재 대상 71",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 71"
+      },
+      "integratedId": "INT-271",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-72",
+      "name": "US 제재 대상 72",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 72"
+      },
+      "integratedId": "INT-272",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-73",
+      "name": "US 제재 대상 73",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 73"
+      },
+      "integratedId": "INT-273",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-74",
+      "name": "US 제재 대상 74",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 74"
+      },
+      "integratedId": "INT-274",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-75",
+      "name": "US 제재 대상 75",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 75"
+      },
+      "integratedId": "INT-275",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-76",
+      "name": "US 제재 대상 76",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 76"
+      },
+      "integratedId": "INT-276",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-77",
+      "name": "US 제재 대상 77",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 77"
+      },
+      "integratedId": "INT-277",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-78",
+      "name": "US 제재 대상 78",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 78"
+      },
+      "integratedId": "INT-278",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-79",
+      "name": "US 제재 대상 79",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 79"
+      },
+      "integratedId": "INT-279",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-80",
+      "name": "US 제재 대상 80",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 80"
+      },
+      "integratedId": "INT-280",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-81",
+      "name": "US 제재 대상 81",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 81"
+      },
+      "integratedId": "INT-281",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-82",
+      "name": "US 제재 대상 82",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 82"
+      },
+      "integratedId": "INT-282",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-83",
+      "name": "US 제재 대상 83",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 83"
+      },
+      "integratedId": "INT-283",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-84",
+      "name": "US 제재 대상 84",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 84"
+      },
+      "integratedId": "INT-284",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-85",
+      "name": "US 제재 대상 85",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 85"
+      },
+      "integratedId": "INT-285",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-86",
+      "name": "US 제재 대상 86",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 86"
+      },
+      "integratedId": "INT-286",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-87",
+      "name": "US 제재 대상 87",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 87"
+      },
+      "integratedId": "INT-287",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-88",
+      "name": "US 제재 대상 88",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 88"
+      },
+      "integratedId": "INT-288",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-89",
+      "name": "US 제재 대상 89",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 89"
+      },
+      "integratedId": "INT-289",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-90",
+      "name": "US 제재 대상 90",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 90"
+      },
+      "integratedId": "INT-290",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-91",
+      "name": "US 제재 대상 91",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 91"
+      },
+      "integratedId": "INT-291",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-92",
+      "name": "US 제재 대상 92",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 92"
+      },
+      "integratedId": "INT-292",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-93",
+      "name": "US 제재 대상 93",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 93"
+      },
+      "integratedId": "INT-293",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-94",
+      "name": "US 제재 대상 94",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 94"
+      },
+      "integratedId": "INT-294",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-95",
+      "name": "US 제재 대상 95",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 95"
+      },
+      "integratedId": "INT-295",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-96",
+      "name": "US 제재 대상 96",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 96"
+      },
+      "integratedId": "INT-296",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-97",
+      "name": "US 제재 대상 97",
+      "type": "aircraft",
+      "country": "CN",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 97"
+      },
+      "integratedId": "INT-297",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-98",
+      "name": "US 제재 대상 98",
+      "type": "entity",
+      "country": "CU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 98"
+      },
+      "integratedId": "INT-298",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-99",
+      "name": "US 제재 대상 99",
+      "type": "individual",
+      "country": "VE",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 99"
+      },
+      "integratedId": "INT-299",
+      "originalSource": "US"
+    },
+    {
+      "id": "US-100",
+      "name": "US 제재 대상 100",
+      "type": "vessel",
+      "country": "RU",
+      "source": "US",
+      "listingDate": "2025-04-29T11:53:04.666Z",
+      "details": {
+        "reason": "OFAC 규제에 따른 제재 대상 100"
+      },
+      "integratedId": "INT-300",
+      "originalSource": "US"
+    }
+  ],
+  "meta": {
+    "count": 300,
+    "lastUpdated": "2025-04-29T11:53:04.932Z",
+    "version": "2025-04-29",
+    "sources": [
+      "UN",
+      "EU",
+      "US"
+    ]
+  }
+}
