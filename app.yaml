@@ -11,17 +11,6 @@ automatic_scaling:
 
 env_variables:
   NODE_ENV: "production"
-  NEXT_PUBLIC_DOMAIN: "sp.wvl.co.kr"
-  FIREBASE_PROJECT_ID: "sp-2504-cf8b6"
-  NEXT_PUBLIC_FIREBASE_API_KEY: "AIzaSyCozFda3anqtaQfPxN4W_6w61zRw02SWtY"
-  NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: "sp-2504-cf8b6.firebaseapp.com"
-  NEXT_PUBLIC_FIREBASE_PROJECT_ID: "sp-2504-cf8b6"
-  NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: "sp-2504-cf8b6.firebasestorage.app"
-  NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: "300578693120"
-  NEXT_PUBLIC_FIREBASE_APP_ID: "1:300578693120:web:770540805bb669ab30f8e5"
-  NEXT_PUBLIC_BASE_URL: "https://sp.wvl.co.kr"
-  NEXT_PUBLIC_API_URL: "https://sp.wvl.co.kr/api"
-  # Firebase 환경 변수들은 Google Cloud Console에서 설정됩니다.
 
 handlers:
   # 매니페스트 파일 처리 (빌드 ID 포함)

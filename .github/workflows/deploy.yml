@@ -5,7 +5,6 @@ on:
     branches:
       - master
 
-# Deploy workflow after adding permissions
 jobs:
   deploy:
     name: Deploy to App Engine
@@ -15,6 +14,8 @@ jobs:
       id-token: 'write'
     
     env:
+      NODE_ENV: "production"
+      NEXT_PUBLIC_DOMAIN: "sp.wvl.co.kr"
       NEXT_PUBLIC_FIREBASE_API_KEY: ${{ secrets.NEXT_PUBLIC_FIREBASE_API_KEY }}
       NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: ${{ secrets.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN }}
       NEXT_PUBLIC_FIREBASE_PROJECT_ID: ${{ secrets.NEXT_PUBLIC_FIREBASE_PROJECT_ID }}
@@ -28,15 +29,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         
-      - name: Print Firebase environment variables
+      - name: Print environment info
         run: |
-          echo "Checking Firebase environment variables:"
-          echo "NEXT_PUBLIC_FIREBASE_API_KEY: ${NEXT_PUBLIC_FIREBASE_API_KEY:0:5}..."
-          echo "NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: $NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN"
-          echo "NEXT_PUBLIC_FIREBASE_PROJECT_ID: $NEXT_PUBLIC_FIREBASE_PROJECT_ID"
-          echo "NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: $NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET"
-          echo "NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: $NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID"
-          echo "NEXT_PUBLIC_FIREBASE_APP_ID: ${NEXT_PUBLIC_FIREBASE_APP_ID:0:10}..."
+          echo "Node version: $(node -v || echo 'not installed')"
+          echo "Npm version: $(npm -v || echo 'not installed')"
+          echo "Deploying to domain: $NEXT_PUBLIC_DOMAIN"
+          echo "Using Firebase project: $NEXT_PUBLIC_FIREBASE_PROJECT_ID"
         
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -45,19 +43,27 @@ jobs:
           cache: 'npm'
           
       - name: Install dependencies
-        run: npm install --frozen-lockfile
+        run: npm ci
         
+      - name: Create .env file
+        run: |
+          echo "NEXT_PUBLIC_FIREBASE_API_KEY=$NEXT_PUBLIC_FIREBASE_API_KEY" > .env
+          echo "NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=$NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN" >> .env
+          echo "NEXT_PUBLIC_FIREBASE_PROJECT_ID=$NEXT_PUBLIC_FIREBASE_PROJECT_ID" >> .env
+          echo "NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=$NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET" >> .env
+          echo "NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=$NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID" >> .env
+          echo "NEXT_PUBLIC_FIREBASE_APP_ID=$NEXT_PUBLIC_FIREBASE_APP_ID" >> .env
+          echo "NEXT_PUBLIC_BASE_URL=$NEXT_PUBLIC_BASE_URL" >> .env
+          echo "NEXT_PUBLIC_API_URL=$NEXT_PUBLIC_API_URL" >> .env
+          echo "NODE_ENV=$NODE_ENV" >> .env
+
       - name: Clean Next.js cache
         run: |
           echo "Cleaning Next.js cache..."
           rm -rf .next
-          npm run clean || echo "No clean script found, skipping."
-        
-      - name: Cache Next.js build
-        uses: actions/cache@v3
-        with:
-          path: .next/cache
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}
+          
+      - name: Install critters
+        run: npm install critters
           
       - name: Build application
         run: npm run build
@@ -65,29 +71,34 @@ jobs:
       - name: Verify build output
         run: |
           echo "Checking build output..."
-          ls -la .next
+          ls -la .next || echo "No .next directory found"
           ls -la .next/static || echo "No static directory found"
           
       - name: Authenticate to Google Cloud
         id: auth
-        uses: google-github-actions/auth@v1
+        uses: google-github-actions/auth@v2
         with:
           project_id: ${{ secrets.GCP_PROJECT_ID }}
           credentials_json: ${{ secrets.GCP_SA_KEY }}
-          create_credentials_file: true
-          export_environment_variables: true
           
       - name: Set up Cloud SDK
-        uses: google-github-actions/setup-gcloud@v1
+        uses: google-github-actions/setup-gcloud@v2
         with:
           project_id: ${{ secrets.GCP_PROJECT_ID }}
           
-      - name: Print auth info
+      - name: Update app.yaml with environment variables
         run: |
-          echo "Using service account: $GCLOUD_SERVICE_ACCOUNT"
-          gcloud config list
+          # 이미 app.yaml에 있는 NODE_ENV 환경 변수 외에는 추가하지 않음
+          echo "Using app.yaml with minimal environment variables"
+          cat app.yaml
           
       - name: Deploy to App Engine
         run: |
           echo "*** Starting deployment ***"
           gcloud app deploy app.yaml --quiet --promote --project=${{ secrets.GCP_PROJECT_ID }}
+          
+      - name: Verify deployment
+        run: |
+          echo "*** Deployment completed ***"
+          gcloud app describe --project=${{ secrets.GCP_PROJECT_ID }}
+          echo "App should be available at: https://$NEXT_PUBLIC_DOMAIN"
