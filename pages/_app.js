@@ -2,6 +2,8 @@ import '../styles/globals.css';
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { AuthProvider } from '../lib/firebase/context';
+import { initializeFirebase } from '../lib/firebase/auth';
+import { isFirebaseConfigValid } from '../lib/firebase/config';
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -25,6 +27,17 @@ function MyApp({ Component, pageProps }) {
       router.events.off('routeChangeStart', handleRouteChange);
     };
   }, [router]);
+
+  useEffect(() => {
+    // Firebase 초기화 시도 (환경 변수가 없으면 오류 없이 무시됨)
+    if (typeof window !== 'undefined') {
+      if (isFirebaseConfigValid) {
+        initializeFirebase();
+      } else {
+        console.log('Firebase 환경 변수가 없습니다. 인증 기능 없이 실행합니다.');
+      }
+    }
+  }, []);
 
   return (
     <AuthProvider>
