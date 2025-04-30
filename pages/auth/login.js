@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Head from 'next/head';
-import { loginWithEmailAndPassword } from '../../lib/firebase/auth';
+import { loginUser as signIn } from '../../lib/firebase/auth';
 import { useAuth } from '../../lib/firebase/context';
 import styles from '../../styles/Login.module.css';
 import {

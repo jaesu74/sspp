@@ -377,9 +377,14 @@ export default function Home() {
   // 로그아웃 처리
   const handleLogout = async () => {
     try {
-      await logoutUser();
-      console.log('로그아웃 성공');
-      router.push('/auth/login');
+      const { success, error } = await logoutUser();
+      
+      if (success) {
+        console.log('로그아웃 성공');
+        router.push('/auth/login');
+      } else {
+        console.error('로그아웃 오류:', error);
+      }
     } catch (error) {
       console.error('로그아웃 오류:', error);
     }
